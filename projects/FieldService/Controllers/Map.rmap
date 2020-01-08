@@ -1,0 +1,12 @@
+﻿<GlobalMap>
+  <Items>
+    <GlobalMapComponent>
+      <EntityName>sf_account</EntityName>
+      <ViewName>All Accounts</ViewName>
+    </GlobalMapComponent>
+    <GlobalMapComponent>
+      <EntityName>sf_account</EntityName>
+      <ViewName>My Accounts</ViewName>
+    </GlobalMapComponent>
+  </Items>
+</GlobalMap>

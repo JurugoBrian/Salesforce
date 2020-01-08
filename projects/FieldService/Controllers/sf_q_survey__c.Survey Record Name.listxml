@@ -1,0 +1,72 @@
+﻿<EntityList>
+  <Attributes>
+    <EntityName>sf_q_survey__c</EntityName>
+    <CamelCase>sf_q_survey__c</CamelCase>
+  </Attributes>
+  <Name>Survey Record Name</Name>
+  <Kind>List</Kind>
+  <AutoWideWidth>0</AutoWideWidth>
+  <OrderBy>name</OrderBy>
+  <SerializedBindings>
+    <string>id</string>
+    <string>recordtypeid</string>
+    <string>name</string>
+    <string>account__c.sf_account.id2</string>
+    <string>account__c.sf_account.name</string>
+    <string>account__c.sf_account.annualrevenue</string>
+    <string>account__c.sf_account.birthdate__c</string>
+    <string>account__c.sf_account.cohort__c</string>
+    <string>account__c.sf_account.createdon</string>
+    <string>account__c.sf_account.hh_members_manual__c</string>
+    <string>account__c.sf_account.npo02__householdphone__c</string>
+    <string>account__c.sf_account.household_status__c</string>
+    <string>account__c.sf_account.id</string>
+    <string>account__c.sf_account.lastmodifieddate</string>
+    <string>account__c.sf_account.lastvieweddate</string>
+    <string>account__c.sf_account.marital_status__c</string>
+    <string>account__c.sf_account.npo02__membershipjoindate__c</string>
+    <string>account__c.sf_account.modifiedon</string>
+    <string>account__c.sf_account.most_recent_survey__c</string>
+    <string>account__c.sf_account.npsp__number_of_household_members__c</string>
+    <string>account__c.sf_account.ownerid2</string>
+    <string>account__c.sf_account.ownership</string>
+    <string>account__c.sf_account.parentid</string>
+    <string>account__c.sf_account.npe01__one2onecontact__c</string>
+    <string>account__c.sf_account.single_home_coord__latitude__s</string>
+    <string>account__c.sf_account.single_home_coord__longitude__s</string>
+    <string>account__c.sf_account.status__c</string>
+    <string>account__c.sf_account.subcounty__c</string>
+    <string>account__c.sf_account.survey__c</string>
+  </SerializedBindings>
+  <HasGpsFields>true</HasGpsFields>
+  <MaxColumns>0</MaxColumns>
+  <SerializedTemplates>
+    <RowTemplate>
+      <DesignWidth>320</DesignWidth>
+      <DesignHeight>48</DesignHeight>
+      <Name>Default</Name>
+      <Width>320</Width>
+      <Height>48</Height>
+      <SerializedChildren>
+        <CellTemplate SchemaName="name">
+          <StyleName>primary</StyleName>
+          <Bounds>10,2,302,28</Bounds>
+          <CellKind>0</CellKind>
+          <Anchor>13</Anchor>
+        </CellTemplate>
+        <CellTemplate SchemaName="recordtypeid">
+          <StyleName>gray</StyleName>
+          <Bounds>10,31,146,13</Bounds>
+          <CellKind>0</CellKind>
+          <Anchor>5</Anchor>
+        </CellTemplate>
+        <CellTemplate SchemaName="account__c.sf_account.survey__c">
+          <StyleName>r_gray</StyleName>
+          <Bounds>157,31,152,13</Bounds>
+          <CellKind>0</CellKind>
+          <Anchor>13</Anchor>
+        </CellTemplate>
+      </SerializedChildren>
+    </RowTemplate>
+  </SerializedTemplates>
+</EntityList>

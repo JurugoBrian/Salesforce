@@ -1,0 +1,8 @@
+﻿<HubDefinition>
+  <Group name="Field Staff">
+    <View name="Collection">
+      <EntityView entity="sf_account" view="All Accounts" sort="name"/>
+    </View>
+  </Group>
+  <Item entity="sf_account" property="undefined" parent="true"/>
+</HubDefinition>

@@ -1,0 +1,36 @@
+﻿<EntityForm xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:dummy="0" flexi="0" fleximode="1" fullscreen="0" resize="0" version="2">
+  <IsContactForm>false</IsContactForm>
+  <EntityName>sf_account</EntityName>
+  <CamelCase>sf_account</CamelCase>
+  <PrimaryCommands>!defcmd</PrimaryCommands>
+  <EnabledWorkflows>OnLoadEnabled OnChangeEnabled OnSaveEnabled OnExecuteCommand OnCanExecuteCommand</EnabledWorkflows>
+  <SerializedChildrenV2>
+    <FormTab xsi:type="DetailTab">
+      <Name>General</Name>
+      <SerializedChildren>
+        <DetailItem SchemaName="parentid"/>
+        <DetailItem SchemaName="name"/>
+        <DetailItem SchemaName="district__c"/>
+        <DetailItem SchemaName="subcounty__c"/>
+        <DetailItem SchemaName="cohort__c"/>
+        <DetailItem SchemaName="ownerid2"/>
+        <DetailItem SchemaName="hh_members_manual__c"/>
+        <DetailItem SchemaName="account_parent_income__c"/>
+        <DetailItem SchemaName="System Information" separator="true" xsi:type="SeparatorDetailItem">
+          <IsConstant>true</IsConstant>
+        </DetailItem>
+        <DetailItem SchemaName="recordtypeid"/>
+      </SerializedChildren>
+    </FormTab>
+    <FormTab xsi:type="AssociatedTab">
+      <Name>VSLA</Name>
+      <CustomName>VSLA</CustomName>
+      <Binding SchemaName="sf_vsla__c.account_lookup__c"/>
+    </FormTab>
+    <FormTab xsi:type="AssociatedTab">
+      <Name>Trainings</Name>
+      <CustomName>Trainings</CustomName>
+      <Binding SchemaName="sf_training__c.account_lookup__c"/>
+    </FormTab>
+  </SerializedChildrenV2>
+</EntityForm>

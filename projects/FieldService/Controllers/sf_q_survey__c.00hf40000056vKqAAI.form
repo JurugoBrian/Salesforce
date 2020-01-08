@@ -1,0 +1,363 @@
+﻿<EntityForm xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:dummy="0" flexi="0" fleximode="1" fullscreen="0" resize="0" version="2">
+  <IsContactForm>false</IsContactForm>
+  <EntityName>sf_q_survey__c</EntityName>
+  <CamelCase>sf_q_survey__c</CamelCase>
+  <PrimaryCommands>!defcmd</PrimaryCommands>
+  <EnabledWorkflows>OnLoadEnabled OnChangeEnabled OnSaveEnabled OnExecuteCommand OnCanExecuteCommand</EnabledWorkflows>
+  <SerializedChildrenV2>
+    <FormTab xsi:type="DetailTab">
+      <Name>General</Name>
+      <SerializedChildren>
+        <DetailItem SchemaName="name"/>
+        <DetailItem SchemaName="account__c"/>
+        <DetailItem SchemaName="stage__c"/>
+        <DetailItem SchemaName="fal_attendance__c"/>
+        <DetailItem SchemaName="children_enrolled_in_school__c"/>
+        <DetailItem SchemaName="client_age_at_base__c"/>
+        <DetailItem SchemaName="General" separator="true" xsi:type="SeparatorDetailItem">
+          <IsConstant>true</IsConstant>
+        </DetailItem>
+        <DetailItem SchemaName="r_iq_client_home_ownership__c"/>
+        <DetailItem SchemaName="r_iq_client_home_ownership_type__c"/>
+        <DetailItem SchemaName="r_mu_client_home_rooms__c"/>
+        <DetailItem SchemaName="r_mu_drinking_water_type__c"/>
+        <DetailItem SchemaName="r_mu_drinking_water_problem__c"/>
+        <DetailItem SchemaName="r_mu_drinking_water_what_improvements__c"/>
+        <DetailItem SchemaName="Land and Agriculture" separator="true" xsi:type="SeparatorDetailItem">
+          <IsConstant>true</IsConstant>
+        </DetailItem>
+        <DetailItem SchemaName="r_iq_farmland_access__c"/>
+        <DetailItem SchemaName="r_iq_farmland_ownership_status__c"/>
+        <DetailItem SchemaName="r_iq_farmland_acres_access__c"/>
+        <DetailItem SchemaName="r_iq_farmland_acres_opened_last_year__c"/>
+        <DetailItem SchemaName="r_iq_farming_challenges_capital__c"/>
+        <DetailItem SchemaName="r_iq_farming_challenges_tools_and_equi__c"/>
+        <DetailItem SchemaName="r_iq_farming_challenges_storage__c"/>
+        <DetailItem SchemaName="r_iq_farming_challenges_market__c"/>
+        <DetailItem SchemaName="r_iq_farming_challenges_skills_or_know__c"/>
+        <DetailItem SchemaName="r_iq_farming_challenges_most_pressing__c"/>
+        <DetailItem SchemaName="r_iq_produce_sales_home_sales__c"/>
+        <DetailItem SchemaName="r_iq_produce_sales_produce_store__c"/>
+        <DetailItem SchemaName="r_iq_produce_sales_cooperative_or_grou__c"/>
+        <DetailItem SchemaName="r_iq_produce_sales_middlemen__c"/>
+        <DetailItem SchemaName="r_iq_produce_sales_other_means__c"/>
+        <DetailItem SchemaName="r_iq_produce_sales_other_means_descrip__c"/>
+        <DetailItem SchemaName="r_iq_farming_storage__c"/>
+        <DetailItem SchemaName="r_iq_farming_extension_service_1_organ__c"/>
+        <DetailItem SchemaName="r_iq_farming_extension_service_1_type__c"/>
+        <DetailItem SchemaName="r_iq_farming_extension_service_1_durat__c"/>
+        <DetailItem SchemaName="r_iq_farming_extension_service_1_concl__c"/>
+        <DetailItem SchemaName="r_iq_farming_extension_service_2_organ__c"/>
+        <DetailItem SchemaName="r_iq_farming_extension_service_2_type__c"/>
+        <DetailItem SchemaName="r_iq_farming_extension_service_2_durat__c"/>
+        <DetailItem SchemaName="r_iq_farming_extension_service_2_concl__c"/>
+        <DetailItem SchemaName="r_iq_farming_extension_service_3_organ__c"/>
+        <DetailItem SchemaName="r_iq_farming_extension_service_3_type__c"/>
+        <DetailItem SchemaName="r_iq_farming_extension_service_3_durat__c"/>
+        <DetailItem SchemaName="r_iq_farming_extension_service_3_concl__c"/>
+        <DetailItem SchemaName="Household Composition" separator="true" xsi:type="SeparatorDetailItem">
+          <IsConstant>true</IsConstant>
+        </DetailItem>
+        <DetailItem SchemaName="r_iq_composition_1_name__c"/>
+        <DetailItem SchemaName="r_iq_composition_1_age__c"/>
+        <DetailItem SchemaName="r_iq_composition_1_education_level__c"/>
+        <DetailItem SchemaName="r_iq_composition_1_currently_enrolled__c"/>
+        <DetailItem SchemaName="r_iq_composition_2_name__c"/>
+        <DetailItem SchemaName="r_iq_composition_2_age__c"/>
+        <DetailItem SchemaName="r_iq_composition_2_education_level__c"/>
+        <DetailItem SchemaName="r_iq_composition_2_currently_enrolled__c"/>
+        <DetailItem SchemaName="r_iq_composition_3_name__c"/>
+        <DetailItem SchemaName="r_iq_composition_3_age__c"/>
+        <DetailItem SchemaName="r_iq_composition_3_education_level__c"/>
+        <DetailItem SchemaName="r_iq_composition_3_currently_enrolled__c"/>
+        <DetailItem SchemaName="r_iq_composition_4_name__c"/>
+        <DetailItem SchemaName="r_iq_composition_4_age__c"/>
+        <DetailItem SchemaName="r_iq_composition_4_education_level__c"/>
+        <DetailItem SchemaName="r_iq_composition_4_currently_enrolled__c"/>
+        <DetailItem SchemaName="r_iq_composition_5_name__c"/>
+        <DetailItem SchemaName="r_iq_composition_5_age__c"/>
+        <DetailItem SchemaName="r_iq_composition_5_education_level__c"/>
+        <DetailItem SchemaName="r_iq_composition_5_currently_enrolled__c"/>
+        <DetailItem SchemaName="r_iq_composition_6_name__c"/>
+        <DetailItem SchemaName="r_iq_composition_6_age__c"/>
+        <DetailItem SchemaName="r_iq_composition_6_education_level__c"/>
+        <DetailItem SchemaName="r_iq_composition_6_currently_enrolled__c"/>
+        <DetailItem SchemaName="r_iq_composition_7_name__c"/>
+        <DetailItem SchemaName="r_iq_composition_7_age__c"/>
+        <DetailItem SchemaName="r_iq_composition_7_education_level__c"/>
+        <DetailItem SchemaName="r_iq_composition_7_currently_enrolled__c"/>
+        <DetailItem SchemaName="r_iq_composition_8_name__c"/>
+        <DetailItem SchemaName="r_iq_composition_8_age__c"/>
+        <DetailItem SchemaName="r_iq_composition_8_education_level__c"/>
+        <DetailItem SchemaName="r_iq_composition_8_currently_enrolled__c"/>
+        <DetailItem SchemaName="r_iq_composition_9_name__c"/>
+        <DetailItem SchemaName="r_iq_composition_9_age__c"/>
+        <DetailItem SchemaName="r_iq_composition_9_education_level__c"/>
+        <DetailItem SchemaName="r_iq_composition_9_currently_enrolled__c"/>
+        <DetailItem SchemaName="r_iq_composition_10_name__c"/>
+        <DetailItem SchemaName="r_iq_composition_10_age__c"/>
+        <DetailItem SchemaName="r_iq_composition_10_education_level__c"/>
+        <DetailItem SchemaName="r_iq_composition_10_currently_enrolled__c"/>
+        <DetailItem SchemaName="composition_11_name__c"/>
+        <DetailItem SchemaName="composition_11_age__c"/>
+        <DetailItem SchemaName="composition_11_education_level__c"/>
+        <DetailItem SchemaName="composition_11_enrolled__c"/>
+        <DetailItem SchemaName="composition_12_name__c"/>
+        <DetailItem SchemaName="composition_12_age__c"/>
+        <DetailItem SchemaName="composition_12_education_level__c"/>
+        <DetailItem SchemaName="composition_12_enrolled__c"/>
+        <DetailItem SchemaName="composition_13_name__c"/>
+        <DetailItem SchemaName="composition_13_age__c"/>
+        <DetailItem SchemaName="composition_13_education_level__c"/>
+        <DetailItem SchemaName="composition_13_enrolled__c"/>
+        <DetailItem SchemaName="composition_14_name__c"/>
+        <DetailItem SchemaName="composition_14_age__c"/>
+        <DetailItem SchemaName="composition_14_education_level__c"/>
+        <DetailItem SchemaName="composition_14_enrolled__c"/>
+        <DetailItem SchemaName="composition_15_name__c"/>
+        <DetailItem SchemaName="composition_15_age__c"/>
+        <DetailItem SchemaName="composition_15_education_level__c"/>
+        <DetailItem SchemaName="composition_15_enrolled__c"/>
+        <DetailItem SchemaName="r_mu_composition_total_hh_members__c"/>
+        <DetailItem SchemaName="Education" separator="true" xsi:type="SeparatorDetailItem">
+          <IsConstant>true</IsConstant>
+        </DetailItem>
+        <DetailItem SchemaName="r_iq_education_type__c"/>
+        <DetailItem SchemaName="r_iq_education_why_children_aren_t_in__c"/>
+        <DetailItem SchemaName="r_iq_education_satisfied__c"/>
+        <DetailItem SchemaName="Wealth" separator="true" xsi:type="SeparatorDetailItem">
+          <IsConstant>true</IsConstant>
+        </DetailItem>
+        <DetailItem SchemaName="r_mu_saving_value_capable_products__c"/>
+        <DetailItem SchemaName="r_mu_saving_value_savings_group__c"/>
+        <DetailItem SchemaName="r_mu_saving_value_financial_institutio__c"/>
+        <DetailItem SchemaName="r_mu_asset_cows__c"/>
+        <DetailItem SchemaName="r_mu_asset_goats__c"/>
+        <DetailItem SchemaName="r_mu_asset_chickens__c"/>
+        <DetailItem SchemaName="asset_duck__c"/>
+        <DetailItem SchemaName="asset_turkey__c"/>
+        <DetailItem SchemaName="r_mu_asset_pigs__c"/>
+        <DetailItem SchemaName="r_mu_asset_other_animal__c"/>
+        <DetailItem SchemaName="asset_other_animal_value__c"/>
+        <DetailItem SchemaName="r_mu_asset_motorbike__c"/>
+        <DetailItem SchemaName="r_mu_asset_ox_plow__c"/>
+        <DetailItem SchemaName="r_mu_asset_bicycle__c"/>
+        <DetailItem SchemaName="r_mu_asset_other_asset__c"/>
+        <DetailItem SchemaName="asset_other_value__c"/>
+        <DetailItem SchemaName="asset_other_notes__c"/>
+        <DetailItem SchemaName="r_iq_noncapable_loan_y_n__c"/>
+        <DetailItem SchemaName="r_iq_noncapable_loan_value__c"/>
+        <DetailItem SchemaName="r_iq_noncapable_loan_purpose__c"/>
+        <DetailItem SchemaName="r_iq_access_to_credit__c"/>
+        <DetailItem SchemaName="income" separator="true" xsi:type="SeparatorDetailItem">
+          <IsConstant>true</IsConstant>
+        </DetailItem>
+        <DetailItem SchemaName="r_iq_income_wages_and_salaries__c"/>
+        <DetailItem SchemaName="r_mu_income_rentals__c"/>
+        <DetailItem SchemaName="r_iq_income_pension__c"/>
+        <DetailItem SchemaName="r_iq_income_ngo_assistance_remittances__c"/>
+        <DetailItem SchemaName="r_iq_income_government__c"/>
+        <DetailItem SchemaName="r_hs_iga_produce_selling__c"/>
+        <DetailItem SchemaName="r_hs_iga_kiosks__c"/>
+        <DetailItem SchemaName="r_hs_iga_grocery__c"/>
+        <DetailItem SchemaName="r_hs_iga_poultry__c"/>
+        <DetailItem SchemaName="r_hs_iga_piggery__c"/>
+        <DetailItem SchemaName="r_hs_iga_apiary__c"/>
+        <DetailItem SchemaName="r_hs_iga_food_processing__c"/>
+        <DetailItem SchemaName="r_hs_iga_transport__c"/>
+        <DetailItem SchemaName="r_hs_iga_other__c"/>
+        <DetailItem SchemaName="r_iq_employee_1_salary__c"/>
+        <DetailItem SchemaName="r_iq_employee_2_salary__c"/>
+        <DetailItem SchemaName="r_iq_employee_3_salary__c"/>
+        <DetailItem SchemaName="Farm Income" separator="true" xsi:type="SeparatorDetailItem">
+          <IsConstant>true</IsConstant>
+        </DetailItem>
+        <DetailItem SchemaName="r_iq_crop_1_type__c"/>
+        <DetailItem SchemaName="r_iq_crop_1_of_sacks__c"/>
+        <DetailItem SchemaName="r_iq_crop_2_type__c"/>
+        <DetailItem SchemaName="r_iq_crop_2_of_sacks__c"/>
+        <DetailItem SchemaName="r_iq_crop_3_of_sacks__c"/>
+        <DetailItem SchemaName="r_iq_crop_4_type__c"/>
+        <DetailItem SchemaName="r_iq_crop_4_of_sacks__c"/>
+        <DetailItem SchemaName="r_iq_crop_4_harvest_value__c"/>
+        <DetailItem SchemaName="r_iq_crop_5_of_sacks__c"/>
+        <DetailItem SchemaName="r_iq_crop_5_harvest_value__c"/>
+        <DetailItem SchemaName="Health" separator="true" xsi:type="SeparatorDetailItem">
+          <IsConstant>true</IsConstant>
+        </DetailItem>
+        <DetailItem SchemaName="r_iq_chronic_permanent_health_problems__c"/>
+        <DetailItem SchemaName="r_iq_contagious_diseases_y_n__c"/>
+        <DetailItem SchemaName="r_iq_contagious_diseases_skin_rash__c"/>
+        <DetailItem SchemaName="r_iq_contagious_diseases_hep_a_or_b__c"/>
+        <DetailItem SchemaName="r_iq_contagious_diseases_measles__c"/>
+        <DetailItem SchemaName="r_iq_waterborne_diseases_y_n__c"/>
+        <DetailItem SchemaName="r_iq_waterborne_diseases_typhoid__c"/>
+        <DetailItem SchemaName="r_iq_waterborne_diseases_dysentery__c"/>
+        <DetailItem SchemaName="r_iq_waterborne_diseases_cholera__c"/>
+        <DetailItem SchemaName="r_iq_waterborne_diseases_worms__c"/>
+        <DetailItem SchemaName="r_iq_ph_facility__c"/>
+        <DetailItem SchemaName="r_iq_ph_facility_satisfaction__c"/>
+        <DetailItem SchemaName="r_iq_ph_facility_satisfaction_why__c"/>
+        <DetailItem SchemaName="Short Form 8" separator="true" xsi:type="SeparatorDetailItem">
+          <IsConstant>true</IsConstant>
+        </DetailItem>
+        <DetailItem SchemaName="r_iq_sf8_general_health__c"/>
+        <DetailItem SchemaName="sf8_physical_health_limit_daily_activity__c"/>
+        <DetailItem SchemaName="r_iq_sf8_difficulty_with_daily_work__c"/>
+        <DetailItem SchemaName="r_iq_sf8_bodily_pain__c"/>
+        <DetailItem SchemaName="r_iq_sf8_energy__c"/>
+        <DetailItem SchemaName="sf8_problems_limit_social_activity__c"/>
+        <DetailItem SchemaName="r_iq_sf8_emotional_problems__c"/>
+        <DetailItem SchemaName="sf8_emotional_prob_limit_days_activity__c"/>
+        <DetailItem SchemaName="Rosenberg Self Esteem Scale" separator="true" xsi:type="SeparatorDetailItem">
+          <IsConstant>true</IsConstant>
+        </DetailItem>
+        <DetailItem SchemaName="r_iq_rse_satisfied_with_self__c"/>
+        <DetailItem SchemaName="r_iq_rse_i_m_no_good__c"/>
+        <DetailItem SchemaName="r_iq_rse_good_qualities__c"/>
+        <DetailItem SchemaName="r_iq_rse_do_things_well__c"/>
+        <DetailItem SchemaName="r_iq_rse_not_much_to_be_proud_of__c"/>
+        <DetailItem SchemaName="r_iq_rse_fell_useless__c"/>
+        <DetailItem SchemaName="r_iq_rse_a_person_of_worth__c"/>
+        <DetailItem SchemaName="r_iq_rse_respect_for_myself__c"/>
+        <DetailItem SchemaName="r_iq_rse_i_m_a_failure__c"/>
+        <DetailItem SchemaName="r_iq_rse_positive_attitude__c"/>
+        <DetailItem SchemaName="r_iq_self_esteem_dream__c"/>
+        <DetailItem SchemaName="Structural Social Capital" separator="true" xsi:type="SeparatorDetailItem">
+          <IsConstant>true</IsConstant>
+        </DetailItem>
+        <DetailItem SchemaName="r_iq_groups_y_n__c"/>
+        <DetailItem SchemaName="r_iq_groups_leadership_role__c"/>
+        <DetailItem SchemaName="r_iq_groups_actively_engaged__c"/>
+        <DetailItem SchemaName="r_iq_groups_of_groups__c"/>
+        <DetailItem SchemaName="r_iq_groups_of_leadership_roles__c"/>
+        <DetailItem SchemaName="important_group_same_family__c"/>
+        <DetailItem SchemaName="important_group_same_religion__c"/>
+        <DetailItem SchemaName="important_group_same_gender__c"/>
+        <DetailItem SchemaName="important_group_same_occupation__c"/>
+        <DetailItem SchemaName="important_group_same_age__c"/>
+        <DetailItem SchemaName="important_group_same_education__c"/>
+        <DetailItem SchemaName="r_iq_important_group_decision_making__c"/>
+        <DetailItem SchemaName="r_iq_important_group_effective_leaders__c"/>
+        <DetailItem SchemaName="r_iq_important_group_new_skills__c"/>
+        <DetailItem SchemaName="r_iq_primary_school_scenario__c"/>
+        <DetailItem SchemaName="r_iq_differences_education__c"/>
+        <DetailItem SchemaName="r_iq_differences_wealth__c"/>
+        <DetailItem SchemaName="r_iq_differences_landholdings__c"/>
+        <DetailItem SchemaName="r_iq_differences_social_status__c"/>
+        <DetailItem SchemaName="r_iq_differences_gender__c"/>
+        <DetailItem SchemaName="r_iq_differences_age__c"/>
+        <DetailItem SchemaName="r_iq_differences_local_vs_newcomers__c"/>
+        <DetailItem SchemaName="r_iq_differences_politics__c"/>
+        <DetailItem SchemaName="r_iq_differences_ethnicity__c"/>
+        <DetailItem SchemaName="r_iq_differences_problems__c"/>
+        <DetailItem SchemaName="r_iq_differences_problems_lead_to_viol__c"/>
+        <DetailItem SchemaName="r_iq_differences_mediated_by_people__c"/>
+        <DetailItem SchemaName="r_iq_differences_mediated_by_family_me__c"/>
+        <DetailItem SchemaName="r_iq_differences_mediated_by_neighbors__c"/>
+        <DetailItem SchemaName="r_iq_differences_mediated_by_community__c"/>
+        <DetailItem SchemaName="r_iq_differences_mediated_by_religious__c"/>
+        <DetailItem SchemaName="r_iq_differences_mediated_by_judicial__c"/>
+        <DetailItem SchemaName="r_iq_services_denied_education__c"/>
+        <DetailItem SchemaName="r_iq_services_denied_health_services__c"/>
+        <DetailItem SchemaName="r_iq_services_denied_job_training_or_e__c"/>
+        <DetailItem SchemaName="r_iq_services_denied_credit_or_finance__c"/>
+        <DetailItem SchemaName="r_iq_services_denied_transportation__c"/>
+        <DetailItem SchemaName="r_iq_services_denied_water_distributio__c"/>
+        <DetailItem SchemaName="r_iq_services_denied_sanitation__c"/>
+        <DetailItem SchemaName="r_iq_services_denied_justice_or_confli__c"/>
+        <DetailItem SchemaName="r_iq_services_denied_security_or_polic__c"/>
+        <DetailItem SchemaName="r_iq_services_denied_other_households__c"/>
+        <DetailItem SchemaName="r_iq_services_reasons_income__c"/>
+        <DetailItem SchemaName="r_iq_services_reasons_occupation__c"/>
+        <DetailItem SchemaName="r_iq_services_reasons_social_status__c"/>
+        <DetailItem SchemaName="r_iq_services_reasons_age__c"/>
+        <DetailItem SchemaName="r_iq_services_reasons_gender__c"/>
+        <DetailItem SchemaName="r_iq_services_reasons_tribe__c"/>
+        <DetailItem SchemaName="r_iq_services_reasons_language__c"/>
+        <DetailItem SchemaName="r_iq_services_reasons_religious_belief__c"/>
+        <DetailItem SchemaName="r_iq_services_reasons_political_affili__c"/>
+        <DetailItem SchemaName="r_iq_services_reasons_lack_of_educatio__c"/>
+        <DetailItem SchemaName="r_iq_services_reasons_returnee_status__c"/>
+        <DetailItem SchemaName="r_iq_positive_influence__c"/>
+        <DetailItem SchemaName="Cognitive Social Capital" separator="true" xsi:type="SeparatorDetailItem">
+          <IsConstant>true</IsConstant>
+        </DetailItem>
+        <DetailItem SchemaName="r_iq_csc_people_are_honest__c"/>
+        <DetailItem SchemaName="r_iq_csc_interested_in_own_welfare__c"/>
+        <DetailItem SchemaName="r_iq_csc_trustworthy_village__c"/>
+        <DetailItem SchemaName="r_iq_csc_taken_advantage_of__c"/>
+        <DetailItem SchemaName="r_iq_csc_always_help__c"/>
+        <DetailItem SchemaName="r_iq_csc_disregard_opinions_of_others__c"/>
+        <DetailItem SchemaName="r_iq_csc_willing_to_help__c"/>
+        <DetailItem SchemaName="r_iq_csc_village_has_prospered__c"/>
+        <DetailItem SchemaName="r_iq_csc_feel_accepted__c"/>
+        <DetailItem SchemaName="r_iq_village_peaceful_or_conflictive__c"/>
+        <DetailItem SchemaName="r_iq_village_more_or_less_conflict__c"/>
+        <DetailItem SchemaName="r_iq_contribution_to_development__c"/>
+        <DetailItem SchemaName="r_iq_contribution_to_development_descr__c"/>
+        <DetailItem SchemaName="r_iq_harmonious_relationships__c"/>
+        <DetailItem SchemaName="r_iq_harmonious_relationships_comparat__c"/>
+        <DetailItem SchemaName="r_iq_conflict_resolution_party__c"/>
+        <DetailItem SchemaName="PPI" separator="true" xsi:type="SeparatorDetailItem">
+          <IsConstant>true</IsConstant>
+        </DetailItem>
+        <DetailItem SchemaName="r_iq_ppi_hh_members__c"/>
+        <DetailItem SchemaName="r_iq_ppi_school_attendance__c"/>
+        <DetailItem SchemaName="r_iq_ppi_female_edu_level__c"/>
+        <DetailItem SchemaName="r_iq_ppi_construction_material_wall__c"/>
+        <DetailItem SchemaName="r_iq_ppi_construction_material_roof__c"/>
+        <DetailItem SchemaName="r_iq_ppi_lighting_source__c"/>
+        <DetailItem SchemaName="r_iq_ppi_toilet_type__c"/>
+        <DetailItem SchemaName="r_iq_ppi_electronics__c"/>
+        <DetailItem SchemaName="r_iq_ppi_clothes__c"/>
+        <DetailItem SchemaName="r_iq_ppi_shoes__c"/>
+        <DetailItem SchemaName="SHALOM" separator="true" xsi:type="SeparatorDetailItem">
+          <IsConstant>true</IsConstant>
+        </DetailItem>
+        <DetailItem SchemaName="r_iq_shalom_loving_relationship_a__c"/>
+        <DetailItem SchemaName="r_iq_shalom_relationship_w_divine_a__c"/>
+        <DetailItem SchemaName="r_iq_shalom_forgiveness_towards_others_a__c"/>
+        <DetailItem SchemaName="r_iq_shalom_connection_with_nature_a__c"/>
+        <DetailItem SchemaName="r_iq_shalom_sense_of_identity_a__c"/>
+        <DetailItem SchemaName="r_iq_shalom_worship_of_creator_a__c"/>
+        <DetailItem SchemaName="r_iq_shalom_awe_at_breathtaking_view_a__c"/>
+        <DetailItem SchemaName="r_iq_shalom_trust_between_indiv_a__c"/>
+        <DetailItem SchemaName="r_iq_shalom_self_awareness_a__c"/>
+        <DetailItem SchemaName="r_iq_shalom_oneness_with_nature_a__c"/>
+        <DetailItem SchemaName="r_iq_shalom_oneness_with_god_a__c"/>
+        <DetailItem SchemaName="r_iq_shalom_harmony_with_environment_a__c"/>
+        <DetailItem SchemaName="r_iq_shalom_peace_with_god_a__c"/>
+        <DetailItem SchemaName="r_iq_shalom_joy_in_life_a__c"/>
+        <DetailItem SchemaName="r_iq_shalom_prayer_life_a__c"/>
+        <DetailItem SchemaName="r_iq_shalom_inner_peace_a__c"/>
+        <DetailItem SchemaName="r_iq_shalom_respect_for_others_a__c"/>
+        <DetailItem SchemaName="r_iq_shalom_meaning_in_life_a__c"/>
+        <DetailItem SchemaName="r_shalom_kindness_towards_others_a__c"/>
+        <DetailItem SchemaName="r_shalom_magic_in_environment_a__c"/>
+        <DetailItem SchemaName="r_iq_shalom_importance_of_religion__c"/>
+        <DetailItem SchemaName="r_iq_shalom_importance_of_spirituality__c"/>
+        <DetailItem SchemaName="r_iq_shalom_loving_relationship_b__c"/>
+        <DetailItem SchemaName="r_iq_shalom_relationship_w_divine_b__c"/>
+        <DetailItem SchemaName="r_iq_shalom_forgiveness_others_b__c"/>
+        <DetailItem SchemaName="r_iq_shalom_connection_with_nature_b__c"/>
+        <DetailItem SchemaName="r_iq_shalom_sense_of_identity_b__c"/>
+        <DetailItem SchemaName="r_iq_shalom_worship_of_creator_b__c"/>
+        <DetailItem SchemaName="r_iq_shalom_awe_at_breathtaking_view_b__c"/>
+        <DetailItem SchemaName="r_iq_shalom_trust_between_indiv_b__c"/>
+        <DetailItem SchemaName="r_iq_shalom_self_awareness_b__c"/>
+        <DetailItem SchemaName="r_iq_shalom_oneness_with_nature_b__c"/>
+        <DetailItem SchemaName="r_iq_shalom_oneness_with_god_b__c"/>
+        <DetailItem SchemaName="r_iq_shalom_harmony_with_environment_b__c"/>
+        <DetailItem SchemaName="r_iq_shalom_peace_with_god_b__c"/>
+        <DetailItem SchemaName="r_iq_shalom_joy_in_life_b__c"/>
+        <DetailItem SchemaName="r_iq_shalom_prayer_life_b__c"/>
+        <DetailItem SchemaName="r_iq_shalom_inner_peace_b__c"/>
+        <DetailItem SchemaName="r_iq_shalom_respect_for_others_b__c"/>
+        <DetailItem SchemaName="r_iq_shalom_meaning_in_life_b__c"/>
+        <DetailItem SchemaName="r_iq_shalom_kindness_towards_others_b__c"/>
+        <DetailItem SchemaName="r_shalom_magic_in_environment_b__c"/>
+      </SerializedChildren>
+    </FormTab>
+  </SerializedChildrenV2>
+</EntityForm>

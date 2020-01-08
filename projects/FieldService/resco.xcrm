@@ -1,0 +1,1787 @@
+﻿<model version="7" publish="10000">
+  <entities>
+    <entity schema="activityparty">
+      <properties>
+        <property schema="activityid"/>
+        <property schema="addressused"/>
+        <property schema="id"/>
+        <property schema="participationtypemask"/>
+        <property schema="partyid"/>
+      </properties>
+      <indexes>
+        <index schema="idx_activityparty_activityid" issystem="true">
+          <fields>
+            <field schema="activityid"/>
+          </fields>
+        </index>
+        <index schema="idx_activityparty_partyid" issystem="true">
+          <fields>
+            <field schema="partyid"/>
+          </fields>
+        </index>
+      </indexes>
+    </entity>
+    <entity schema="resco_audit" isonlineonly="true">
+      <properties>
+        <property schema="createdby"/>
+        <property schema="createdon"/>
+        <property schema="id"/>
+        <property schema="modifiedby"/>
+        <property schema="modifiedon"/>
+        <property schema="name"/>
+        <property schema="resco_changedon"/>
+        <property schema="resco_displayvaluenew"/>
+        <property schema="resco_displayvalueold"/>
+        <property schema="resco_fieldtype"/>
+        <property schema="resco_latitude"/>
+        <property schema="resco_longitude"/>
+        <property schema="resco_operationid"/>
+        <property schema="resco_regardingobjectid"/>
+        <property schema="resco_source"/>
+        <property schema="resco_transactionid"/>
+        <property schema="resco_valuenew"/>
+        <property schema="resco_valueold"/>
+        <property schema="statecode"/>
+        <property schema="statuscode"/>
+        <property schema="versionnumber"/>
+      </properties>
+      <indexes>
+        <index schema="idx_resco_audit_createdby" issystem="true">
+          <fields>
+            <field schema="createdby"/>
+          </fields>
+        </index>
+        <index schema="idx_resco_audit_modifiedby" issystem="true">
+          <fields>
+            <field schema="modifiedby"/>
+          </fields>
+        </index>
+        <index schema="idx_resco_audit_resco_regardingobjectid" issystem="true">
+          <fields>
+            <field schema="resco_regardingobjectid"/>
+          </fields>
+        </index>
+        <index schema="idx_resco_audit_name" issystem="true">
+          <fields>
+            <field schema="name"/>
+          </fields>
+        </index>
+      </indexes>
+    </entity>
+    <entity schema="resco_devicecontrol">
+      <properties>
+        <property schema="createdby"/>
+        <property schema="createdon"/>
+        <property schema="modifiedby"/>
+        <property schema="modifiedon"/>
+        <property schema="ownerid"/>
+        <property schema="owningbusinessunit"/>
+        <property schema="resco_devicecontrolid"/>
+        <property schema="resco_deviceid"/>
+        <property schema="resco_entityname"/>
+        <property schema="resco_mobiledeviceid"/>
+        <property schema="resco_recordid"/>
+        <property schema="resco_requestdata"/>
+        <property schema="resco_requesttype"/>
+        <property schema="resco_responsecode"/>
+        <property schema="resco_responsedata"/>
+        <property schema="resco_responsedatalength"/>
+        <property schema="resco_responsestatus"/>
+        <property schema="statecode"/>
+        <property schema="statuscode"/>
+        <property schema="versionnumber"/>
+      </properties>
+      <indexes>
+        <index schema="idx_resco_devicecontrol_createdby" issystem="true">
+          <fields>
+            <field schema="createdby"/>
+          </fields>
+        </index>
+        <index schema="idx_resco_devicecontrol_modifiedby" issystem="true">
+          <fields>
+            <field schema="modifiedby"/>
+          </fields>
+        </index>
+        <index schema="idx_resco_devicecontrol_ownerid" issystem="true">
+          <fields>
+            <field schema="ownerid"/>
+          </fields>
+        </index>
+        <index schema="idx_resco_devicecontrol_owningbusinessunit" issystem="true">
+          <fields>
+            <field schema="owningbusinessunit"/>
+          </fields>
+        </index>
+        <index schema="idx_resco_devicecontrol_resco_mobiledeviceid" issystem="true">
+          <fields>
+            <field schema="resco_mobiledeviceid"/>
+          </fields>
+        </index>
+        <index schema="idx_resco_devicecontrol_resco_deviceid" issystem="true">
+          <fields>
+            <field schema="resco_deviceid"/>
+          </fields>
+        </index>
+      </indexes>
+    </entity>
+    <entity schema="resco_email">
+      <properties>
+        <property schema="resco_activityid"/>
+        <property schema="resco_error"/>
+        <property schema="resco_flags"/>
+        <property schema="resco_historyid"/>
+        <property schema="resco_modified"/>
+        <property schema="resco_movefolderid"/>
+        <property schema="resco_unread"/>
+      </properties>
+    </entity>
+    <entity schema="resco_favorite">
+      <properties>
+        <property schema="createdby"/>
+        <property schema="createdon"/>
+        <property schema="modifiedby"/>
+        <property schema="modifiedon"/>
+        <property schema="ownerid"/>
+        <property schema="owningbusinessunit"/>
+        <property schema="resco_favoriteid"/>
+        <property schema="resco_name"/>
+        <property schema="resco_recordid"/>
+        <property schema="resco_target"/>
+        <property schema="statecode"/>
+        <property schema="statuscode"/>
+        <property schema="versionnumber"/>
+      </properties>
+      <indexes>
+        <index schema="idx_resco_favorite_createdby" issystem="true">
+          <fields>
+            <field schema="createdby"/>
+          </fields>
+        </index>
+        <index schema="idx_resco_favorite_modifiedby" issystem="true">
+          <fields>
+            <field schema="modifiedby"/>
+          </fields>
+        </index>
+        <index schema="idx_resco_favorite_ownerid" issystem="true">
+          <fields>
+            <field schema="ownerid"/>
+          </fields>
+        </index>
+        <index schema="idx_resco_favorite_owningbusinessunit" issystem="true">
+          <fields>
+            <field schema="owningbusinessunit"/>
+          </fields>
+        </index>
+        <index schema="idx_resco_favorite_resco_name" issystem="true">
+          <fields>
+            <field schema="resco_name"/>
+          </fields>
+        </index>
+      </indexes>
+    </entity>
+    <entity schema="resco_folder">
+      <properties>
+        <property schema="resco_class"/>
+        <property schema="resco_displayname"/>
+        <property schema="resco_folderid"/>
+        <property schema="resco_id"/>
+        <property schema="resco_parentid"/>
+        <property schema="resco_source"/>
+        <property schema="resco_sourceid"/>
+        <property schema="resco_syncstate"/>
+        <property schema="resco_synctype"/>
+      </properties>
+    </entity>
+    <entity schema="resco_folderitem">
+      <properties>
+        <property schema="resco_entityname"/>
+        <property schema="resco_folderid"/>
+        <property schema="resco_folderitemid"/>
+        <property schema="resco_itemid"/>
+      </properties>
+      <indexes>
+        <index schema="idx_resco_folderitem_resco_folderid" issystem="true">
+          <fields>
+            <field schema="resco_folderid"/>
+          </fields>
+        </index>
+        <index schema="idx_resco_folderitem_resco_itemid" issystem="true">
+          <fields>
+            <field schema="resco_itemid"/>
+          </fields>
+        </index>
+      </indexes>
+    </entity>
+    <entity schema="resco_mobileaudit">
+      <properties>
+        <property schema="createdby"/>
+        <property schema="createdon"/>
+        <property schema="id"/>
+        <property schema="modifiedby"/>
+        <property schema="modifiedon"/>
+        <property schema="ownerid"/>
+        <property schema="owningbusinessunit"/>
+        <property schema="resco_description"/>
+        <property schema="resco_deviceid"/>
+        <property schema="resco_entityid"/>
+        <property schema="resco_entityname"/>
+        <property schema="resco_externaluserid"/>
+        <property schema="resco_latitude"/>
+        <property schema="resco_loggedon"/>
+        <property schema="resco_longitude"/>
+        <property schema="resco_operation"/>
+        <property schema="statecode"/>
+        <property schema="statuscode"/>
+        <property schema="versionnumber"/>
+      </properties>
+      <indexes>
+        <index schema="idx_resco_mobileaudit_createdby" issystem="true">
+          <fields>
+            <field schema="createdby"/>
+          </fields>
+        </index>
+        <index schema="idx_resco_mobileaudit_modifiedby" issystem="true">
+          <fields>
+            <field schema="modifiedby"/>
+          </fields>
+        </index>
+        <index schema="idx_resco_mobileaudit_ownerid" issystem="true">
+          <fields>
+            <field schema="ownerid"/>
+          </fields>
+        </index>
+        <index schema="idx_resco_mobileaudit_owningbusinessunit" issystem="true">
+          <fields>
+            <field schema="owningbusinessunit"/>
+          </fields>
+        </index>
+        <index schema="idx_resco_mobileaudit_resco_entityname" issystem="true">
+          <fields>
+            <field schema="resco_entityname"/>
+          </fields>
+        </index>
+      </indexes>
+    </entity>
+    <entity schema="resco_mobilereport">
+      <properties>
+        <property schema="createdon"/>
+        <property schema="id"/>
+        <property schema="modifiedon"/>
+        <property schema="name"/>
+        <property schema="resco_data"/>
+        <property schema="resco_entityname"/>
+        <property schema="resco_languagecode"/>
+        <property schema="resco_sourcetype"/>
+        <property schema="statuscode"/>
+      </properties>
+      <indexes>
+        <index schema="idx_resco_mobilereport_name" issystem="true">
+          <fields>
+            <field schema="name"/>
+          </fields>
+        </index>
+      </indexes>
+    </entity>
+    <entity schema="sf_account" haslabels="true">
+      <properties>
+        <property schema="annualrevenue"/>
+        <property schema="birthdate__c"/>
+        <property schema="cohort__c"/>
+        <property schema="createdon"/>
+        <property schema="hh_members_manual__c"/>
+        <property schema="household_status__c"/>
+        <property schema="id"/>
+        <property schema="id2"/>
+        <property schema="lastmodifieddate"/>
+        <property schema="lastvieweddate"/>
+        <property schema="marital_status__c"/>
+        <property schema="modifiedon"/>
+        <property schema="most_recent_survey__c"/>
+        <property schema="name"/>
+        <property schema="npe01__one2onecontact__c"/>
+        <property schema="npo02__householdphone__c"/>
+        <property schema="npo02__membershipjoindate__c"/>
+        <property schema="npsp__number_of_household_members__c"/>
+        <property schema="ownerid2"/>
+        <property schema="ownership"/>
+        <property schema="parentid"/>
+        <property schema="single_home_coord__latitude__s"/>
+        <property schema="single_home_coord__longitude__s"/>
+        <property schema="status__c"/>
+        <property schema="subcounty__c"/>
+        <property schema="survey__c"/>
+      </properties>
+      <indexes>
+        <index schema="idx_sf_account_most_recent_survey__c" issystem="true">
+          <fields>
+            <field schema="most_recent_survey__c"/>
+          </fields>
+        </index>
+        <index schema="idx_sf_account_npe01__one2onecontact__c" issystem="true">
+          <fields>
+            <field schema="npe01__one2onecontact__c"/>
+          </fields>
+        </index>
+        <index schema="idx_sf_account_ownerid2" issystem="true">
+          <fields>
+            <field schema="ownerid2"/>
+          </fields>
+        </index>
+        <index schema="idx_sf_account_parentid" issystem="true">
+          <fields>
+            <field schema="parentid"/>
+          </fields>
+        </index>
+        <index schema="idx_sf_account_survey__c" issystem="true">
+          <fields>
+            <field schema="survey__c"/>
+          </fields>
+        </index>
+        <index schema="idx_sf_account_name" issystem="true">
+          <fields>
+            <field schema="name"/>
+          </fields>
+        </index>
+      </indexes>
+    </entity>
+    <entity schema="sf_asset">
+      <properties>
+        <property schema="accountid"/>
+        <property schema="contactid"/>
+        <property schema="createdon"/>
+        <property schema="description"/>
+        <property schema="id"/>
+        <property schema="id2"/>
+        <property schema="installdate"/>
+        <property schema="iscompetitorproduct"/>
+        <property schema="modifiedon"/>
+        <property schema="name"/>
+        <property schema="parentid"/>
+        <property schema="price"/>
+        <property schema="product2id"/>
+        <property schema="purchasedate"/>
+        <property schema="quantity"/>
+        <property schema="rootassetid"/>
+        <property schema="serialnumber" displayformat="Barcode"/>
+        <property schema="status" displayformat="StringListInput"/>
+        <property schema="transactioncurrencyid"/>
+        <property schema="usageenddate"/>
+      </properties>
+      <indexes>
+        <index schema="idx_sf_asset_accountid" issystem="true">
+          <fields>
+            <field schema="accountid"/>
+          </fields>
+        </index>
+        <index schema="idx_sf_asset_contactid" issystem="true">
+          <fields>
+            <field schema="contactid"/>
+          </fields>
+        </index>
+        <index schema="idx_sf_asset_parentid" issystem="true">
+          <fields>
+            <field schema="parentid"/>
+          </fields>
+        </index>
+        <index schema="idx_sf_asset_product2id" issystem="true">
+          <fields>
+            <field schema="product2id"/>
+          </fields>
+        </index>
+        <index schema="idx_sf_asset_rootassetid" issystem="true">
+          <fields>
+            <field schema="rootassetid"/>
+          </fields>
+        </index>
+        <index schema="idx_sf_asset_transactioncurrencyid" issystem="true">
+          <fields>
+            <field schema="transactioncurrencyid"/>
+          </fields>
+        </index>
+        <index schema="idx_sf_asset_name" issystem="true">
+          <fields>
+            <field schema="name"/>
+          </fields>
+        </index>
+      </indexes>
+    </entity>
+    <entity schema="sf_attachment">
+      <properties>
+        <property schema="body"/>
+        <property schema="bodylength"/>
+        <property schema="contenttype"/>
+        <property schema="createdon"/>
+        <property schema="description"/>
+        <property schema="id"/>
+        <property schema="id2"/>
+        <property schema="isprivate"/>
+        <property schema="modifiedon"/>
+        <property schema="name"/>
+        <property schema="ownerid2"/>
+        <property schema="parentid"/>
+      </properties>
+      <indexes>
+        <index schema="idx_sf_attachment_ownerid2" issystem="true">
+          <fields>
+            <field schema="ownerid2"/>
+          </fields>
+        </index>
+        <index schema="idx_sf_attachment_parentid" issystem="true">
+          <fields>
+            <field schema="parentid"/>
+          </fields>
+        </index>
+        <index schema="idx_sf_attachment_name" issystem="true">
+          <fields>
+            <field schema="name"/>
+          </fields>
+        </index>
+      </indexes>
+    </entity>
+    <entity schema="sf_contact">
+      <properties>
+        <property schema="accountid"/>
+        <property schema="assistantname"/>
+        <property schema="assistantphone"/>
+        <property schema="birthdate"/>
+        <property schema="createdbyid"/>
+        <property schema="createdon"/>
+        <property schema="department"/>
+        <property schema="description"/>
+        <property schema="email" displayformat="Email"/>
+        <property schema="fax"/>
+        <property schema="firstname"/>
+        <property schema="homephone" displayformat="PhoneNumber"/>
+        <property schema="id"/>
+        <property schema="id2"/>
+        <property schema="isdeleted"/>
+        <property schema="lastmodifiedbyid"/>
+        <property schema="lastname"/>
+        <property schema="leadsource"/>
+        <property schema="mailingcity"/>
+        <property schema="mailingcountry"/>
+        <property schema="mailinggeocodeaccuracy"/>
+        <property schema="mailinglatitude"/>
+        <property schema="mailinglongitude"/>
+        <property schema="mailingpostalcode"/>
+        <property schema="mailingstate"/>
+        <property schema="mailingstreet"/>
+        <property schema="masterrecordid"/>
+        <property schema="mobilephone" displayformat="PhoneNumber"/>
+        <property schema="modifiedon"/>
+        <property schema="name"/>
+        <property schema="othercity"/>
+        <property schema="othercountry"/>
+        <property schema="othergeocodeaccuracy"/>
+        <property schema="otherlatitude"/>
+        <property schema="otherlongitude"/>
+        <property schema="otherphone"/>
+        <property schema="otherpostalcode"/>
+        <property schema="otherstate"/>
+        <property schema="otherstreet"/>
+        <property schema="ownerid2"/>
+        <property schema="phone" displayformat="PhoneNumber"/>
+        <property schema="photourl"/>
+        <property schema="reportstoid"/>
+        <property schema="salutation"/>
+        <property schema="title"/>
+      </properties>
+      <indexes>
+        <index schema="idx_sf_contact_accountid" issystem="true">
+          <fields>
+            <field schema="accountid"/>
+          </fields>
+        </index>
+        <index schema="idx_sf_contact_createdbyid" issystem="true">
+          <fields>
+            <field schema="createdbyid"/>
+          </fields>
+        </index>
+        <index schema="idx_sf_contact_lastmodifiedbyid" issystem="true">
+          <fields>
+            <field schema="lastmodifiedbyid"/>
+          </fields>
+        </index>
+        <index schema="idx_sf_contact_masterrecordid" issystem="true">
+          <fields>
+            <field schema="masterrecordid"/>
+          </fields>
+        </index>
+        <index schema="idx_sf_contact_ownerid2" issystem="true">
+          <fields>
+            <field schema="ownerid2"/>
+          </fields>
+        </index>
+        <index schema="idx_sf_contact_reportstoid" issystem="true">
+          <fields>
+            <field schema="reportstoid"/>
+          </fields>
+        </index>
+        <index schema="idx_sf_contact_name" issystem="true">
+          <fields>
+            <field schema="name"/>
+          </fields>
+        </index>
+      </indexes>
+    </entity>
+    <entity schema="sf_contentdocument">
+      <properties>
+        <property schema="contentmodifieddate"/>
+        <property schema="contentsize"/>
+        <property schema="createdbyid"/>
+        <property schema="createdon"/>
+        <property schema="description"/>
+        <property schema="fileextension"/>
+        <property schema="filetype"/>
+        <property schema="id"/>
+        <property schema="id2"/>
+        <property schema="isarchived"/>
+        <property schema="lastmodifiedbyid"/>
+        <property schema="lastmodifieddate"/>
+        <property schema="latestpublishedversionid"/>
+        <property schema="modifiedon"/>
+        <property schema="ownerid2"/>
+        <property schema="parentid"/>
+        <property schema="publishstatus"/>
+        <property schema="sharingoption"/>
+        <property schema="title"/>
+      </properties>
+      <indexes>
+        <index schema="idx_sf_contentdocument_createdbyid" issystem="true">
+          <fields>
+            <field schema="createdbyid"/>
+          </fields>
+        </index>
+        <index schema="idx_sf_contentdocument_lastmodifiedbyid" issystem="true">
+          <fields>
+            <field schema="lastmodifiedbyid"/>
+          </fields>
+        </index>
+        <index schema="idx_sf_contentdocument_latestpublishedversionid" issystem="true">
+          <fields>
+            <field schema="latestpublishedversionid"/>
+          </fields>
+        </index>
+        <index schema="idx_sf_contentdocument_ownerid2" issystem="true">
+          <fields>
+            <field schema="ownerid2"/>
+          </fields>
+        </index>
+        <index schema="idx_sf_contentdocument_parentid" issystem="true">
+          <fields>
+            <field schema="parentid"/>
+          </fields>
+        </index>
+        <index schema="idx_sf_contentdocument_title" issystem="true">
+          <fields>
+            <field schema="title"/>
+          </fields>
+        </index>
+      </indexes>
+    </entity>
+    <entity schema="sf_contentdocumentlink" xattr="8388608">
+      <properties>
+        <property schema="contentdocumentid"/>
+        <property schema="id"/>
+        <property schema="id2"/>
+        <property schema="linkedentityid"/>
+        <property schema="modifiedon"/>
+        <property schema="name"/>
+        <property schema="sharetype"/>
+        <property schema="visibility"/>
+      </properties>
+      <indexes>
+        <index schema="idx_sf_contentdocumentlink_contentdocumentid" issystem="true">
+          <fields>
+            <field schema="contentdocumentid"/>
+          </fields>
+        </index>
+        <index schema="idx_sf_contentdocumentlink_linkedentityid" issystem="true">
+          <fields>
+            <field schema="linkedentityid"/>
+          </fields>
+        </index>
+        <index schema="idx_sf_contentdocumentlink_name" issystem="true">
+          <fields>
+            <field schema="name"/>
+          </fields>
+        </index>
+      </indexes>
+    </entity>
+    <entity schema="sf_contentversion">
+      <properties>
+        <property schema="contentdocumentid"/>
+        <property schema="contentlocation"/>
+        <property schema="contentmodifiedbyid"/>
+        <property schema="contentmodifieddate"/>
+        <property schema="contentsize"/>
+        <property schema="contenturl"/>
+        <property schema="createdbyid"/>
+        <property schema="createdon"/>
+        <property schema="description"/>
+        <property schema="fileextension"/>
+        <property schema="filetype"/>
+        <property schema="id"/>
+        <property schema="id2"/>
+        <property schema="islatest"/>
+        <property schema="ismajorversion"/>
+        <property schema="lastmodifiedbyid"/>
+        <property schema="lastmodifieddate"/>
+        <property schema="modifiedon"/>
+        <property schema="ownerid2"/>
+        <property schema="pathonclient"/>
+        <property schema="publishstatus"/>
+        <property schema="ratingcount"/>
+        <property schema="reasonforchange"/>
+        <property schema="sharingoption"/>
+        <property schema="tagcsv" displayformat="MultiStringListInput"/>
+        <property schema="title"/>
+        <property schema="versiondata"/>
+        <property schema="versionnumber2"/>
+      </properties>
+      <indexes>
+        <index schema="idx_sf_contentversion_contentdocumentid" issystem="true">
+          <fields>
+            <field schema="contentdocumentid"/>
+          </fields>
+        </index>
+        <index schema="idx_sf_contentversion_contentmodifiedbyid" issystem="true">
+          <fields>
+            <field schema="contentmodifiedbyid"/>
+          </fields>
+        </index>
+        <index schema="idx_sf_contentversion_createdbyid" issystem="true">
+          <fields>
+            <field schema="createdbyid"/>
+          </fields>
+        </index>
+        <index schema="idx_sf_contentversion_lastmodifiedbyid" issystem="true">
+          <fields>
+            <field schema="lastmodifiedbyid"/>
+          </fields>
+        </index>
+        <index schema="idx_sf_contentversion_ownerid2" issystem="true">
+          <fields>
+            <field schema="ownerid2"/>
+          </fields>
+        </index>
+        <index schema="idx_sf_contentversion_title" issystem="true">
+          <fields>
+            <field schema="title"/>
+          </fields>
+        </index>
+      </indexes>
+    </entity>
+    <entity schema="sf_crop_production__c" haslabels="true">
+      <properties>
+        <property schema="account__c"/>
+        <property schema="actual_unit_price_crop_1__c"/>
+        <property schema="actual_unit_price_crop_2__c"/>
+        <property schema="actual_unit_price_crop_3__c"/>
+        <property schema="actual_unit_price_crop_4__c"/>
+        <property schema="actual_unit_price_crop_5__c"/>
+        <property schema="business_1_location__c"/>
+        <property schema="business_1_name__c"/>
+        <property schema="business_1_profit__c"/>
+        <property schema="business_1_revenue__c"/>
+        <property schema="business_2_location__c"/>
+        <property schema="business_2_name__c"/>
+        <property schema="business_2_profit__c"/>
+        <property schema="business_2_revenue__c"/>
+        <property schema="business_3_location__c"/>
+        <property schema="business_3_name__c"/>
+        <property schema="business_3_profit__c"/>
+        <property schema="business_3_revenue__c"/>
+        <property schema="createdbyid"/>
+        <property schema="createdon"/>
+        <property schema="crop_1_acreage__c"/>
+        <property schema="crop_1_consumption_quantity__c"/>
+        <property schema="crop_1_cost_first_plow__c"/>
+        <property schema="crop_1_cost_harvest__c"/>
+        <property schema="crop_1_cost_other__c"/>
+        <property schema="crop_1_cost_rent__c"/>
+        <property schema="crop_1_cost_second_plow__c"/>
+        <property schema="crop_1_cost_seeds__c"/>
+        <property schema="crop_1_cost_weeding__c"/>
+        <property schema="crop_1_sales_quantity__c"/>
+        <property schema="crop_2_acreage__c"/>
+        <property schema="crop_2_consumption_quantity__c"/>
+        <property schema="crop_2_cost_first_plow__c"/>
+        <property schema="crop_2_cost_harvest__c"/>
+        <property schema="crop_2_cost_other__c"/>
+        <property schema="crop_2_cost_rent__c"/>
+        <property schema="crop_2_cost_second_plow__c"/>
+        <property schema="crop_2_cost_seeds__c"/>
+        <property schema="crop_2_cost_weeding__c"/>
+        <property schema="crop_2_sales_quantity__c"/>
+        <property schema="crop_3_acreage__c"/>
+        <property schema="crop_3_consumption_quantity__c"/>
+        <property schema="crop_3_cost_first_plow__c"/>
+        <property schema="crop_3_cost_harvest__c"/>
+        <property schema="crop_3_cost_other__c"/>
+        <property schema="crop_3_cost_rent__c"/>
+        <property schema="crop_3_cost_second_plow__c"/>
+        <property schema="crop_3_cost_seeds__c"/>
+        <property schema="crop_3_cost_weeding__c"/>
+        <property schema="crop_3_sales_quantity__c"/>
+        <property schema="crop_4_acreage__c"/>
+        <property schema="crop_4_consumption_quantity__c"/>
+        <property schema="crop_4_cost_first_plow__c"/>
+        <property schema="crop_4_cost_harvest__c"/>
+        <property schema="crop_4_cost_other__c"/>
+        <property schema="crop_4_cost_rent__c"/>
+        <property schema="crop_4_cost_second_plow__c"/>
+        <property schema="crop_4_cost_seeds__c"/>
+        <property schema="crop_4_cost_weeding__c"/>
+        <property schema="crop_4_sales_quantity__c"/>
+        <property schema="crop_5_acreage__c"/>
+        <property schema="crop_5_consumption_quantity__c"/>
+        <property schema="crop_5_cost_first_plow__c"/>
+        <property schema="crop_5_cost_harvest__c"/>
+        <property schema="crop_5_cost_other__c"/>
+        <property schema="crop_5_cost_rent__c"/>
+        <property schema="crop_5_cost_second_plow__c"/>
+        <property schema="crop_5_cost_seeds__c"/>
+        <property schema="crop_5_cost_weeding__c"/>
+        <property schema="crop_5_sales_quantity__c"/>
+        <property schema="crop_type_1__c"/>
+        <property schema="crop_type_2__c"/>
+        <property schema="crop_type_3__c"/>
+        <property schema="crop_type_4__c"/>
+        <property schema="crop_type_5__c"/>
+        <property schema="data_updates__c"/>
+        <property schema="id"/>
+        <property schema="id2"/>
+        <property schema="isdeleted"/>
+        <property schema="lastmodifiedbyid"/>
+        <property schema="lastmodifieddate"/>
+        <property schema="lastreferenceddate"/>
+        <property schema="lastvieweddate"/>
+        <property schema="loan_insta__c"/>
+        <property schema="loan_installment_2_value__c"/>
+        <property schema="loan_installment_3_value__c"/>
+        <property schema="loan_installment_4_value__c"/>
+        <property schema="modifiedon"/>
+        <property schema="name"/>
+        <property schema="number_employees_bus_1__c"/>
+        <property schema="number_employees_bus_2__c"/>
+        <property schema="number_employees_bus_3__c"/>
+        <property schema="ownerid2"/>
+        <property schema="personal_business_1__c"/>
+        <property schema="personal_business_2__c"/>
+        <property schema="personal_business_3__c"/>
+        <property schema="recordtypeid"/>
+        <property schema="stage__c"/>
+        <property schema="starting_capital_bus_1__c"/>
+        <property schema="starting_capital_bus_2__c"/>
+        <property schema="starting_capital_bus_3__c"/>
+        <property schema="summary_consumption_value__c"/>
+        <property schema="summary_net_profit__c"/>
+        <property schema="summary_nonfarm_revenue__c"/>
+        <property schema="summary_revenue_value__c"/>
+        <property schema="summary_sales_profit__c"/>
+        <property schema="summary_sales_value__c"/>
+        <property schema="supportive_income_hh__c"/>
+        <property schema="survey_fields__c"/>
+        <property schema="total_cost_crop_1__c"/>
+        <property schema="total_cost_crop_2__c"/>
+        <property schema="total_cost_crop_3__c"/>
+        <property schema="total_cost_crop_4__c"/>
+        <property schema="total_cost_crop_5__c"/>
+      </properties>
+      <indexes>
+        <index schema="idx_sf_crop_production__c_account__c" issystem="true">
+          <fields>
+            <field schema="account__c"/>
+          </fields>
+        </index>
+        <index schema="idx_sf_crop_production__c_createdbyid" issystem="true">
+          <fields>
+            <field schema="createdbyid"/>
+          </fields>
+        </index>
+        <index schema="idx_sf_crop_production__c_lastmodifiedbyid" issystem="true">
+          <fields>
+            <field schema="lastmodifiedbyid"/>
+          </fields>
+        </index>
+        <index schema="idx_sf_crop_production__c_ownerid2" issystem="true">
+          <fields>
+            <field schema="ownerid2"/>
+          </fields>
+        </index>
+        <index schema="idx_sf_crop_production__c_recordtypeid" issystem="true">
+          <fields>
+            <field schema="recordtypeid"/>
+          </fields>
+        </index>
+        <index schema="idx_sf_crop_production__c_survey_fields__c" issystem="true">
+          <fields>
+            <field schema="survey_fields__c"/>
+          </fields>
+        </index>
+        <index schema="idx_sf_crop_production__c_name" issystem="true">
+          <fields>
+            <field schema="name"/>
+          </fields>
+        </index>
+      </indexes>
+    </entity>
+    <entity schema="sf_crop_production_detail__c">
+      <properties>
+        <property schema="acreage__c"/>
+        <property schema="actual_unit_price__c"/>
+        <property schema="consumption_quantity__c"/>
+        <property schema="consumption_value__c"/>
+        <property schema="createdbyid"/>
+        <property schema="createdon"/>
+        <property schema="crop__c"/>
+        <property schema="crop_type__c"/>
+        <property schema="expected_revenue__c"/>
+        <property schema="expected_unit_price__c"/>
+        <property schema="expected_yield__c"/>
+        <property schema="id"/>
+        <property schema="id2"/>
+        <property schema="isdeleted"/>
+        <property schema="lastmodifiedbyid"/>
+        <property schema="lastmodifieddate"/>
+        <property schema="lastreferenceddate"/>
+        <property schema="lastvieweddate"/>
+        <property schema="modifiedon"/>
+        <property schema="name"/>
+        <property schema="net_profit__c"/>
+        <property schema="other_income_hh__c"/>
+        <property schema="ownerid2"/>
+        <property schema="per_acre_expected_yield__c"/>
+        <property schema="production_total__c"/>
+        <property schema="production_value_total__c"/>
+        <property schema="profit_from_sales__c"/>
+        <property schema="revenue_total__c"/>
+        <property schema="sales_quantity__c"/>
+        <property schema="sales_value__c"/>
+        <property schema="survey_fields__c"/>
+        <property schema="total_cost__c"/>
+        <property schema="ugx_per_acre__c"/>
+      </properties>
+      <indexes>
+        <index schema="idx_sf_crop_production_detail__c_createdbyid" issystem="true">
+          <fields>
+            <field schema="createdbyid"/>
+          </fields>
+        </index>
+        <index schema="idx_sf_crop_production_detail__c_crop__c" issystem="true">
+          <fields>
+            <field schema="crop__c"/>
+          </fields>
+        </index>
+        <index schema="idx_sf_crop_production_detail__c_lastmodifiedbyid" issystem="true">
+          <fields>
+            <field schema="lastmodifiedbyid"/>
+          </fields>
+        </index>
+        <index schema="idx_sf_crop_production_detail__c_ownerid2" issystem="true">
+          <fields>
+            <field schema="ownerid2"/>
+          </fields>
+        </index>
+        <index schema="idx_sf_crop_production_detail__c_survey_fields__c" issystem="true">
+          <fields>
+            <field schema="survey_fields__c"/>
+          </fields>
+        </index>
+        <index schema="idx_sf_crop_production_detail__c_name" issystem="true">
+          <fields>
+            <field schema="name"/>
+          </fields>
+        </index>
+      </indexes>
+    </entity>
+    <entity schema="sf_pricebook2">
+      <properties>
+        <property schema="createdon"/>
+        <property schema="description" displayformat="TextArea"/>
+        <property schema="id"/>
+        <property schema="id2"/>
+        <property schema="isactive"/>
+        <property schema="isdeleted"/>
+        <property schema="isstandard"/>
+        <property schema="modifiedon"/>
+        <property schema="name"/>
+      </properties>
+      <indexes>
+        <index schema="idx_sf_pricebook2_name" issystem="true">
+          <fields>
+            <field schema="name"/>
+          </fields>
+        </index>
+      </indexes>
+    </entity>
+    <entity schema="sf_pricebookentry">
+      <properties>
+        <property schema="createdon"/>
+        <property schema="id"/>
+        <property schema="id2"/>
+        <property schema="isactive"/>
+        <property schema="isdeleted"/>
+        <property schema="modifiedon"/>
+        <property schema="name"/>
+        <property schema="pricebook2id"/>
+        <property schema="product2id"/>
+        <property schema="productcode" displayformat="Barcode"/>
+        <property schema="transactioncurrencyid"/>
+        <property schema="unitprice"/>
+        <property schema="usestandardprice"/>
+      </properties>
+      <indexes>
+        <index schema="idx_sf_pricebookentry_pricebook2id" issystem="true">
+          <fields>
+            <field schema="pricebook2id"/>
+          </fields>
+        </index>
+        <index schema="idx_sf_pricebookentry_product2id" issystem="true">
+          <fields>
+            <field schema="product2id"/>
+          </fields>
+        </index>
+        <index schema="idx_sf_pricebookentry_transactioncurrencyid" issystem="true">
+          <fields>
+            <field schema="transactioncurrencyid"/>
+          </fields>
+        </index>
+        <index schema="idx_sf_pricebookentry_name" issystem="true">
+          <fields>
+            <field schema="name"/>
+          </fields>
+        </index>
+      </indexes>
+    </entity>
+    <entity schema="sf_product2">
+      <properties>
+        <property schema="createdon"/>
+        <property schema="description"/>
+        <property schema="family"/>
+        <property schema="id"/>
+        <property schema="id2"/>
+        <property schema="isactive"/>
+        <property schema="modifiedon"/>
+        <property schema="name"/>
+        <property schema="productcode" displayformat="Barcode"/>
+      </properties>
+      <indexes>
+        <index schema="idx_sf_product2_name" issystem="true">
+          <fields>
+            <field schema="name"/>
+          </fields>
+        </index>
+      </indexes>
+    </entity>
+    <entity schema="sf_q_survey__c" conflict="32768" xattr="32768">
+      <properties>
+        <property schema="account__c"/>
+        <property schema="account_hh_number__c"/>
+        <property schema="adults_in_hh__c"/>
+        <property schema="adults_plus_kids__c"/>
+        <property schema="asset_duck__c"/>
+        <property schema="asset_other_animal_value__c"/>
+        <property schema="asset_other_notes__c"/>
+        <property schema="asset_other_value__c"/>
+        <property schema="asset_turkey__c"/>
+        <property schema="baseline_hh_income_pp__c"/>
+        <property schema="bathing_house__c"/>
+        <property schema="cheat_on_count__c"/>
+        <property schema="children_enrolled_in_school__c"/>
+        <property schema="children_in_hh__c"/>
+        <property schema="client_age_at_base__c"/>
+        <property schema="cohort_on_survey__c"/>
+        <property schema="composition_11_age__c"/>
+        <property schema="composition_11_education_level__c"/>
+        <property schema="composition_11_enrolled__c"/>
+        <property schema="composition_11_name__c"/>
+        <property schema="composition_12_age__c"/>
+        <property schema="composition_12_education_level__c"/>
+        <property schema="composition_12_enrolled__c"/>
+        <property schema="composition_12_name__c"/>
+        <property schema="composition_13_age__c"/>
+        <property schema="composition_13_education_level__c"/>
+        <property schema="composition_13_enrolled__c"/>
+        <property schema="composition_13_name__c"/>
+        <property schema="composition_14_age__c"/>
+        <property schema="composition_14_education_level__c"/>
+        <property schema="composition_14_enrolled__c"/>
+        <property schema="composition_14_name__c"/>
+        <property schema="composition_15_age__c"/>
+        <property schema="composition_15_education_level__c"/>
+        <property schema="composition_15_enrolled__c"/>
+        <property schema="composition_15_name__c"/>
+        <property schema="createdbyid"/>
+        <property schema="createdon"/>
+        <property schema="crop_fields__c"/>
+        <property schema="crop_net_profit__c"/>
+        <property schema="crop_production_detail_fields__c"/>
+        <property schema="crop_revenue_value__c"/>
+        <property schema="crop_sales_value__c"/>
+        <property schema="data_updates__c"/>
+        <property schema="differences_age_y_n__c"/>
+        <property schema="differences_education_y_n__c"/>
+        <property schema="differences_ethnicity_y_n__c"/>
+        <property schema="differences_gender_y_n__c"/>
+        <property schema="differences_landholdings_y_n__c"/>
+        <property schema="differences_local_vs_newcomers_y_n__c"/>
+        <property schema="differences_politics_y_n__c"/>
+        <property schema="differences_social_status_y_n__c"/>
+        <property schema="differences_wealth_y_n__c"/>
+        <property schema="dollar_exchange_value__c"/>
+        <property schema="dollar_total_roi__c"/>
+        <property schema="domain_community_value__c"/>
+        <property schema="domain_environment_value__c"/>
+        <property schema="domain_family_value__c"/>
+        <property schema="domain_god_value__c"/>
+        <property schema="domain_self_value__c"/>
+        <property schema="fal_attendance__c"/>
+        <property schema="hh_total__c"/>
+        <property schema="hhs_24_hours_no_food__c"/>
+        <property schema="hhs_24_hours_no_food_score__c"/>
+        <property schema="hhs_no_food__c"/>
+        <property schema="hhs_no_food_score__c"/>
+        <property schema="hhs_score__c"/>
+        <property schema="hhs_sleep_hungry__c"/>
+        <property schema="hhs_sleep_hungry_score__c"/>
+        <property schema="id"/>
+        <property schema="id2"/>
+        <property schema="important_group_same_age__c"/>
+        <property schema="important_group_same_education__c"/>
+        <property schema="important_group_same_family__c"/>
+        <property schema="important_group_same_gender__c"/>
+        <property schema="important_group_same_occupation__c"/>
+        <property schema="important_group_same_religion__c"/>
+        <property schema="income_subtract_repayment__c"/>
+        <property schema="isdeleted"/>
+        <property schema="lastactivitydate"/>
+        <property schema="lastmodifiedbyid"/>
+        <property schema="lastmodifieddate"/>
+        <property schema="lastreferenceddate"/>
+        <property schema="lastvieweddate"/>
+        <property schema="loan_amount_disbursed__c"/>
+        <property schema="loan_balance__c"/>
+        <property schema="loan_completion_date__c"/>
+        <property schema="loan_disbursement_date__c"/>
+        <property schema="loan_payment_1__c"/>
+        <property schema="loan_payment_10__c"/>
+        <property schema="loan_payment_2__c"/>
+        <property schema="loan_payment_3__c"/>
+        <property schema="loan_payment_4__c"/>
+        <property schema="loan_payment_5__c"/>
+        <property schema="loan_payment_6__c"/>
+        <property schema="loan_payment_7__c"/>
+        <property schema="loan_payment_8__c"/>
+        <property schema="loan_payment_9__c"/>
+        <property schema="loan_total_repayed__c"/>
+        <property schema="modifiedon"/>
+        <property schema="name"/>
+        <property schema="non_farm_income__c"/>
+        <property schema="ownerid2"/>
+        <property schema="ppi_score__c"/>
+        <property schema="ppi_value_clothes__c"/>
+        <property schema="ppi_value_construction_material_roof__c"/>
+        <property schema="ppi_value_construction_material_wall__c"/>
+        <property schema="ppi_value_electronics__c"/>
+        <property schema="ppi_value_female_education_level__c"/>
+        <property schema="ppi_value_hh_member__c"/>
+        <property schema="ppi_value_lighting_source__c"/>
+        <property schema="ppi_value_school_attendance__c"/>
+        <property schema="ppi_value_shoes__c"/>
+        <property schema="ppi_value_toilet_type__c"/>
+        <property schema="r_cic_domain_community__c"/>
+        <property schema="r_cic_domain_community_score__c"/>
+        <property schema="r_cic_domain_environment__c"/>
+        <property schema="r_cic_domain_environment_score__c"/>
+        <property schema="r_cic_domain_family__c"/>
+        <property schema="r_cic_domain_family_score__c"/>
+        <property schema="r_cic_domain_god__c"/>
+        <property schema="r_cic_domain_god_score__c"/>
+        <property schema="r_cic_domain_self__c"/>
+        <property schema="r_cic_domain_self_score__c"/>
+        <property schema="r_hs_additional_improvements_descripti__c"/>
+        <property schema="r_hs_additional_improvements_y_n__c"/>
+        <property schema="r_hs_cooking_house__c"/>
+        <property schema="r_hs_enough_bed_nets__c"/>
+        <property schema="r_hs_floor_improvements_descriptions__c"/>
+        <property schema="r_hs_floor_improvements_y_n__c"/>
+        <property schema="r_hs_floor_type__c"/>
+        <property schema="r_hs_hh_illness_last_two_weeks__c"/>
+        <property schema="r_hs_hh_illness_sought_treatment__c"/>
+        <property schema="r_hs_iga_apiary__c"/>
+        <property schema="r_hs_iga_food_processing__c"/>
+        <property schema="r_hs_iga_grocery__c"/>
+        <property schema="r_hs_iga_kiosks__c"/>
+        <property schema="r_hs_iga_other__c"/>
+        <property schema="r_hs_iga_piggery__c"/>
+        <property schema="r_hs_iga_poultry__c"/>
+        <property schema="r_hs_iga_produce_selling__c"/>
+        <property schema="r_hs_iga_transport__c"/>
+        <property schema="r_hs_lighting_source__c"/>
+        <property schema="r_hs_literacy_illiterate__c"/>
+        <property schema="r_hs_literacy_y_n__c"/>
+        <property schema="r_hs_numeracy_nonnumerate__c"/>
+        <property schema="r_hs_numeracy_y_n__c"/>
+        <property schema="r_hs_roof_improvements_descriptions__c"/>
+        <property schema="r_hs_roof_improvements_y_n__c"/>
+        <property schema="r_hs_sanitary_drying_rack__c"/>
+        <property schema="r_hs_sleep_hungry_frequency__c"/>
+        <property schema="r_hs_sleep_hungry_y_n__c"/>
+        <property schema="r_hs_toilet_improvements_descriptions__c"/>
+        <property schema="r_hs_toilet_improvements_y_n__c"/>
+        <property schema="r_hs_toilet_type__c"/>
+        <property schema="r_hs_wall_improvements_descriptions__c"/>
+        <property schema="r_hs_wall_improvements_y_n__c"/>
+        <property schema="r_hs_washing_table__c"/>
+        <property schema="r_iq_access_to_credit__c"/>
+        <property schema="r_iq_chronic_permanent_health_problems__c"/>
+        <property schema="r_iq_client_home_ownership__c"/>
+        <property schema="r_iq_client_home_ownership_type__c"/>
+        <property schema="r_iq_composition_1_age__c"/>
+        <property schema="r_iq_composition_1_currently_enrolled__c"/>
+        <property schema="r_iq_composition_1_education_level__c"/>
+        <property schema="r_iq_composition_1_name__c"/>
+        <property schema="r_iq_composition_10_age__c"/>
+        <property schema="r_iq_composition_10_currently_enrolled__c"/>
+        <property schema="r_iq_composition_10_education_level__c"/>
+        <property schema="r_iq_composition_10_name__c"/>
+        <property schema="r_iq_composition_2_age__c"/>
+        <property schema="r_iq_composition_2_currently_enrolled__c"/>
+        <property schema="r_iq_composition_2_education_level__c"/>
+        <property schema="r_iq_composition_2_name__c"/>
+        <property schema="r_iq_composition_3_age__c"/>
+        <property schema="r_iq_composition_3_currently_enrolled__c"/>
+        <property schema="r_iq_composition_3_education_level__c"/>
+        <property schema="r_iq_composition_3_name__c"/>
+        <property schema="r_iq_composition_4_age__c"/>
+        <property schema="r_iq_composition_4_currently_enrolled__c"/>
+        <property schema="r_iq_composition_4_education_level__c"/>
+        <property schema="r_iq_composition_4_name__c"/>
+        <property schema="r_iq_composition_5_age__c"/>
+        <property schema="r_iq_composition_5_currently_enrolled__c"/>
+        <property schema="r_iq_composition_5_education_level__c"/>
+        <property schema="r_iq_composition_5_name__c"/>
+        <property schema="r_iq_composition_6_age__c"/>
+        <property schema="r_iq_composition_6_currently_enrolled__c"/>
+        <property schema="r_iq_composition_6_education_level__c"/>
+        <property schema="r_iq_composition_6_name__c"/>
+        <property schema="r_iq_composition_7_age__c"/>
+        <property schema="r_iq_composition_7_currently_enrolled__c"/>
+        <property schema="r_iq_composition_7_education_level__c"/>
+        <property schema="r_iq_composition_7_name__c"/>
+        <property schema="r_iq_composition_8_age__c"/>
+        <property schema="r_iq_composition_8_currently_enrolled__c"/>
+        <property schema="r_iq_composition_8_education_level__c"/>
+        <property schema="r_iq_composition_8_name__c"/>
+        <property schema="r_iq_composition_9_age__c"/>
+        <property schema="r_iq_composition_9_currently_enrolled__c"/>
+        <property schema="r_iq_composition_9_education_level__c"/>
+        <property schema="r_iq_composition_9_name__c"/>
+        <property schema="r_iq_conflict_resolution_party__c"/>
+        <property schema="r_iq_contagious_diseases_hep_a_or_b__c"/>
+        <property schema="r_iq_contagious_diseases_measles__c"/>
+        <property schema="r_iq_contagious_diseases_skin_rash__c"/>
+        <property schema="r_iq_contagious_diseases_y_n__c"/>
+        <property schema="r_iq_contribution_to_development__c"/>
+        <property schema="r_iq_contribution_to_development_descr__c"/>
+        <property schema="r_iq_crop_1_of_sacks__c"/>
+        <property schema="r_iq_crop_1_type__c"/>
+        <property schema="r_iq_crop_2_of_sacks__c"/>
+        <property schema="r_iq_crop_2_type__c"/>
+        <property schema="r_iq_crop_3_of_sacks__c"/>
+        <property schema="r_iq_crop_4_harvest_value__c"/>
+        <property schema="r_iq_crop_4_of_sacks__c"/>
+        <property schema="r_iq_crop_4_type__c"/>
+        <property schema="r_iq_crop_5_harvest_value__c"/>
+        <property schema="r_iq_crop_5_of_sacks__c"/>
+        <property schema="r_iq_csc_always_help__c"/>
+        <property schema="r_iq_csc_disregard_opinions_of_others__c"/>
+        <property schema="r_iq_csc_feel_accepted__c"/>
+        <property schema="r_iq_csc_interested_in_own_welfare__c"/>
+        <property schema="r_iq_csc_people_are_honest__c"/>
+        <property schema="r_iq_csc_taken_advantage_of__c"/>
+        <property schema="r_iq_csc_trustworthy_village__c"/>
+        <property schema="r_iq_csc_village_has_prospered__c"/>
+        <property schema="r_iq_csc_willing_to_help__c"/>
+        <property schema="r_iq_differences_age__c"/>
+        <property schema="r_iq_differences_education__c"/>
+        <property schema="r_iq_differences_ethnicity__c"/>
+        <property schema="r_iq_differences_gender__c"/>
+        <property schema="r_iq_differences_landholdings__c"/>
+        <property schema="r_iq_differences_local_vs_newcomers__c"/>
+        <property schema="r_iq_differences_mediated_by_community__c"/>
+        <property schema="r_iq_differences_mediated_by_family_me__c"/>
+        <property schema="r_iq_differences_mediated_by_judicial__c"/>
+        <property schema="r_iq_differences_mediated_by_neighbors__c"/>
+        <property schema="r_iq_differences_mediated_by_people__c"/>
+        <property schema="r_iq_differences_mediated_by_religious__c"/>
+        <property schema="r_iq_differences_politics__c"/>
+        <property schema="r_iq_differences_problems__c"/>
+        <property schema="r_iq_differences_problems_lead_to_viol__c"/>
+        <property schema="r_iq_differences_social_status__c"/>
+        <property schema="r_iq_differences_wealth__c"/>
+        <property schema="r_iq_dissonance_connection_with_nature__c"/>
+        <property schema="r_iq_dissonance_forgiveness_towards_ot__c"/>
+        <property schema="r_iq_dissonance_harmony_with_environme__c"/>
+        <property schema="r_iq_dissonance_inner_peace_c__c"/>
+        <property schema="r_iq_dissonance_joy_in_life_c__c"/>
+        <property schema="r_iq_dissonance_loving_relationship_c__c"/>
+        <property schema="r_iq_dissonance_magic_in_environment_c__c"/>
+        <property schema="r_iq_dissonance_meaning_in_life_c__c"/>
+        <property schema="r_iq_dissonance_oneness_with_god_c__c"/>
+        <property schema="r_iq_dissonance_oneness_with_nature_c__c"/>
+        <property schema="r_iq_dissonance_peace_with_god_c__c"/>
+        <property schema="r_iq_dissonance_personal_relationship__c"/>
+        <property schema="r_iq_dissonance_prayer_life_c__c"/>
+        <property schema="r_iq_dissonance_respect_for_others_c__c"/>
+        <property schema="r_iq_dissonance_self_awareness_c__c"/>
+        <property schema="r_iq_dissonance_sense_of_identity_diss__c"/>
+        <property schema="r_iq_dissonance_trust_between_individu__c"/>
+        <property schema="r_iq_dissonance_worship_of_creator_c__c"/>
+        <property schema="r_iq_education_satisfied__c"/>
+        <property schema="r_iq_education_type__c"/>
+        <property schema="r_iq_education_why_children_aren_t_in__c"/>
+        <property schema="r_iq_employee_1_salary__c"/>
+        <property schema="r_iq_employee_2_salary__c"/>
+        <property schema="r_iq_employee_3_salary__c"/>
+        <property schema="r_iq_farming_challenges_capital__c"/>
+        <property schema="r_iq_farming_challenges_market__c"/>
+        <property schema="r_iq_farming_challenges_most_pressing__c"/>
+        <property schema="r_iq_farming_challenges_skills_or_know__c"/>
+        <property schema="r_iq_farming_challenges_storage__c"/>
+        <property schema="r_iq_farming_challenges_tools_and_equi__c"/>
+        <property schema="r_iq_farming_extension_service_1_concl__c"/>
+        <property schema="r_iq_farming_extension_service_1_durat__c"/>
+        <property schema="r_iq_farming_extension_service_1_organ__c"/>
+        <property schema="r_iq_farming_extension_service_1_type__c"/>
+        <property schema="r_iq_farming_extension_service_2_concl__c"/>
+        <property schema="r_iq_farming_extension_service_2_durat__c"/>
+        <property schema="r_iq_farming_extension_service_2_organ__c"/>
+        <property schema="r_iq_farming_extension_service_2_type__c"/>
+        <property schema="r_iq_farming_extension_service_3_concl__c"/>
+        <property schema="r_iq_farming_extension_service_3_durat__c"/>
+        <property schema="r_iq_farming_extension_service_3_organ__c"/>
+        <property schema="r_iq_farming_extension_service_3_type__c"/>
+        <property schema="r_iq_farming_storage__c"/>
+        <property schema="r_iq_farmland_access__c"/>
+        <property schema="r_iq_farmland_acres_access__c"/>
+        <property schema="r_iq_farmland_acres_opened_last_year__c"/>
+        <property schema="r_iq_farmland_ownership_status__c"/>
+        <property schema="r_iq_groups_actively_engaged__c"/>
+        <property schema="r_iq_groups_leadership_role__c"/>
+        <property schema="r_iq_groups_of_groups__c"/>
+        <property schema="r_iq_groups_of_leadership_roles__c"/>
+        <property schema="r_iq_groups_y_n__c"/>
+        <property schema="r_iq_harmonious_relationships__c"/>
+        <property schema="r_iq_harmonious_relationships_comparat__c"/>
+        <property schema="r_iq_important_group_decision_making__c"/>
+        <property schema="r_iq_important_group_effective_leaders__c"/>
+        <property schema="r_iq_important_group_new_skills__c"/>
+        <property schema="r_iq_income_government__c"/>
+        <property schema="r_iq_income_ngo_assistance_remittances__c"/>
+        <property schema="r_iq_income_pension__c"/>
+        <property schema="r_iq_income_wages_and_salaries__c"/>
+        <property schema="r_iq_noncapable_loan_purpose__c"/>
+        <property schema="r_iq_noncapable_loan_value__c"/>
+        <property schema="r_iq_noncapable_loan_y_n__c"/>
+        <property schema="r_iq_ph_facility__c"/>
+        <property schema="r_iq_ph_facility_satisfaction__c"/>
+        <property schema="r_iq_ph_facility_satisfaction_why__c"/>
+        <property schema="r_iq_positive_influence__c"/>
+        <property schema="r_iq_ppi_clothes__c"/>
+        <property schema="r_iq_ppi_construction_material_roof__c"/>
+        <property schema="r_iq_ppi_construction_material_wall__c"/>
+        <property schema="r_iq_ppi_electronics__c"/>
+        <property schema="r_iq_ppi_female_edu_level__c"/>
+        <property schema="r_iq_ppi_hh_members__c"/>
+        <property schema="r_iq_ppi_lighting_source__c"/>
+        <property schema="r_iq_ppi_school_attendance__c"/>
+        <property schema="r_iq_ppi_shoes__c"/>
+        <property schema="r_iq_ppi_toilet_type__c"/>
+        <property schema="r_iq_primary_school_scenario__c"/>
+        <property schema="r_iq_produce_sales_cooperative_or_grou__c"/>
+        <property schema="r_iq_produce_sales_home_sales__c"/>
+        <property schema="r_iq_produce_sales_middlemen__c"/>
+        <property schema="r_iq_produce_sales_other_means__c"/>
+        <property schema="r_iq_produce_sales_other_means_descrip__c"/>
+        <property schema="r_iq_produce_sales_produce_store__c"/>
+        <property schema="r_iq_rse_a_person_of_worth__c"/>
+        <property schema="r_iq_rse_do_things_well__c"/>
+        <property schema="r_iq_rse_fell_useless__c"/>
+        <property schema="r_iq_rse_good_qualities__c"/>
+        <property schema="r_iq_rse_i_m_a_failure__c"/>
+        <property schema="r_iq_rse_i_m_no_good__c"/>
+        <property schema="r_iq_rse_not_much_to_be_proud_of__c"/>
+        <property schema="r_iq_rse_positive_attitude__c"/>
+        <property schema="r_iq_rse_respect_for_myself__c"/>
+        <property schema="r_iq_rse_satisfied_with_self__c"/>
+        <property schema="r_iq_self_esteem_dream__c"/>
+        <property schema="r_iq_services_denied_credit_or_finance__c"/>
+        <property schema="r_iq_services_denied_education__c"/>
+        <property schema="r_iq_services_denied_health_services__c"/>
+        <property schema="r_iq_services_denied_job_training_or_e__c"/>
+        <property schema="r_iq_services_denied_justice_or_confli__c"/>
+        <property schema="r_iq_services_denied_other_households__c"/>
+        <property schema="r_iq_services_denied_sanitation__c"/>
+        <property schema="r_iq_services_denied_security_or_polic__c"/>
+        <property schema="r_iq_services_denied_transportation__c"/>
+        <property schema="r_iq_services_denied_water_distributio__c"/>
+        <property schema="r_iq_services_reasons_age__c"/>
+        <property schema="r_iq_services_reasons_gender__c"/>
+        <property schema="r_iq_services_reasons_income__c"/>
+        <property schema="r_iq_services_reasons_lack_of_educatio__c"/>
+        <property schema="r_iq_services_reasons_language__c"/>
+        <property schema="r_iq_services_reasons_occupation__c"/>
+        <property schema="r_iq_services_reasons_political_affili__c"/>
+        <property schema="r_iq_services_reasons_religious_belief__c"/>
+        <property schema="r_iq_services_reasons_returnee_status__c"/>
+        <property schema="r_iq_services_reasons_social_status__c"/>
+        <property schema="r_iq_services_reasons_tribe__c"/>
+        <property schema="r_iq_sf8_bodily_pain__c"/>
+        <property schema="r_iq_sf8_difficulty_with_daily_work__c"/>
+        <property schema="r_iq_sf8_emotional_problems__c"/>
+        <property schema="r_iq_sf8_energy__c"/>
+        <property schema="r_iq_sf8_general_health__c"/>
+        <property schema="r_iq_shalom_awe_at_breathtaking_view_a__c"/>
+        <property schema="r_iq_shalom_awe_at_breathtaking_view_b__c"/>
+        <property schema="r_iq_shalom_awe_dissonacnce_view_a__c"/>
+        <property schema="r_iq_shalom_connection_with_nature_a__c"/>
+        <property schema="r_iq_shalom_connection_with_nature_b__c"/>
+        <property schema="r_iq_shalom_forgiveness_others_b__c"/>
+        <property schema="r_iq_shalom_forgiveness_towards_others_a__c"/>
+        <property schema="r_iq_shalom_harmony_with_environment_a__c"/>
+        <property schema="r_iq_shalom_harmony_with_environment_b__c"/>
+        <property schema="r_iq_shalom_importance_of_religion__c"/>
+        <property schema="r_iq_shalom_importance_of_spirituality__c"/>
+        <property schema="r_iq_shalom_inner_peace_a__c"/>
+        <property schema="r_iq_shalom_inner_peace_b__c"/>
+        <property schema="r_iq_shalom_joy_in_life_a__c"/>
+        <property schema="r_iq_shalom_joy_in_life_b__c"/>
+        <property schema="r_iq_shalom_kindness_towards_other_dis__c"/>
+        <property schema="r_iq_shalom_kindness_towards_others_b__c"/>
+        <property schema="r_iq_shalom_loving_relationship_a__c"/>
+        <property schema="r_iq_shalom_loving_relationship_b__c"/>
+        <property schema="r_iq_shalom_meaning_in_life_a__c"/>
+        <property schema="r_iq_shalom_meaning_in_life_b__c"/>
+        <property schema="r_iq_shalom_oneness_with_god_a__c"/>
+        <property schema="r_iq_shalom_oneness_with_god_b__c"/>
+        <property schema="r_iq_shalom_oneness_with_nature_a__c"/>
+        <property schema="r_iq_shalom_oneness_with_nature_b__c"/>
+        <property schema="r_iq_shalom_peace_with_god_a__c"/>
+        <property schema="r_iq_shalom_peace_with_god_b__c"/>
+        <property schema="r_iq_shalom_prayer_life_a__c"/>
+        <property schema="r_iq_shalom_prayer_life_b__c"/>
+        <property schema="r_iq_shalom_relationship_w_divine_a__c"/>
+        <property schema="r_iq_shalom_relationship_w_divine_b__c"/>
+        <property schema="r_iq_shalom_respect_for_others_a__c"/>
+        <property schema="r_iq_shalom_respect_for_others_b__c"/>
+        <property schema="r_iq_shalom_self_awareness_a__c"/>
+        <property schema="r_iq_shalom_self_awareness_b__c"/>
+        <property schema="r_iq_shalom_sense_of_identity_a__c"/>
+        <property schema="r_iq_shalom_sense_of_identity_b__c"/>
+        <property schema="r_iq_shalom_trust_between_indiv_a__c"/>
+        <property schema="r_iq_shalom_trust_between_indiv_b__c"/>
+        <property schema="r_iq_shalom_worship_of_creator_a__c"/>
+        <property schema="r_iq_shalom_worship_of_creator_b__c"/>
+        <property schema="r_iq_village_more_or_less_conflict__c"/>
+        <property schema="r_iq_village_peaceful_or_conflictive__c"/>
+        <property schema="r_iq_waterborne_diseases_cholera__c"/>
+        <property schema="r_iq_waterborne_diseases_dysentery__c"/>
+        <property schema="r_iq_waterborne_diseases_typhoid__c"/>
+        <property schema="r_iq_waterborne_diseases_worms__c"/>
+        <property schema="r_iq_waterborne_diseases_y_n__c"/>
+        <property schema="r_mu_24_hours_w_o_food_frequency__c"/>
+        <property schema="r_mu_24_hours_w_o_food_y_n__c"/>
+        <property schema="r_mu_asset_bicycle__c"/>
+        <property schema="r_mu_asset_chickens__c"/>
+        <property schema="r_mu_asset_cows__c"/>
+        <property schema="r_mu_asset_goats__c"/>
+        <property schema="r_mu_asset_motorbike__c"/>
+        <property schema="r_mu_asset_other_animal__c"/>
+        <property schema="r_mu_asset_other_asset__c"/>
+        <property schema="r_mu_asset_ox_plow__c"/>
+        <property schema="r_mu_asset_pigs__c"/>
+        <property schema="r_mu_client_home_rooms__c"/>
+        <property schema="r_mu_composition_total_hh_members__c"/>
+        <property schema="r_mu_construction_material_roof__c"/>
+        <property schema="r_mu_construction_material_wall__c"/>
+        <property schema="r_mu_drinking_water_problem__c"/>
+        <property schema="r_mu_drinking_water_type__c"/>
+        <property schema="r_mu_drinking_water_what_improvements__c"/>
+        <property schema="r_mu_income_rentals__c"/>
+        <property schema="r_mu_no_food_frequency__c"/>
+        <property schema="r_mu_no_food_y_n__c"/>
+        <property schema="r_mu_saving_value_capable_products__c"/>
+        <property schema="r_mu_saving_value_financial_institutio__c"/>
+        <property schema="r_mu_saving_value_savings_group__c"/>
+        <property schema="r_mu_saving_value_total__c"/>
+        <property schema="r_shalom_kindness_towards_others_a__c"/>
+        <property schema="r_shalom_magic_in_environment_a__c"/>
+        <property schema="r_shalom_magic_in_environment_b__c"/>
+        <property schema="recordtypeid"/>
+        <property schema="rse_score_a_person_of_worth__c"/>
+        <property schema="rse_score_do_things_well__c"/>
+        <property schema="rse_score_fell_useless__c"/>
+        <property schema="rse_score_good_qualities__c"/>
+        <property schema="rse_score_i_m_a_failure__c"/>
+        <property schema="rse_score_i_m_no_good__c"/>
+        <property schema="rse_score_not_much_to_be_proud_of__c"/>
+        <property schema="rse_score_positive_attitude__c"/>
+        <property schema="rse_score_respect_for_myself__c"/>
+        <property schema="rse_score_satisfied__c"/>
+        <property schema="rse_self_esteem_score__c"/>
+        <property schema="sales_profit__c"/>
+        <property schema="sf8_emotional_prob_limit_days_activity__c"/>
+        <property schema="sf8_physical_health_limit_daily_activity__c"/>
+        <property schema="sf8_problems_limit_social_activity__c"/>
+        <property schema="sf8_score__c"/>
+        <property schema="sf8_score_bodily_pain__c"/>
+        <property schema="sf8_score_difficulty_with_daily_work__c"/>
+        <property schema="sf8_score_emo_prob_limit_days_activ__c"/>
+        <property schema="sf8_score_emotional_problems__c"/>
+        <property schema="sf8_score_energy__c"/>
+        <property schema="sf8_score_general_health__c"/>
+        <property schema="sf8_score_p_health_limit_daily_activity__c"/>
+        <property schema="sf8_score_problems_limit_social_activity__c"/>
+        <property schema="shalom_dissonance_total__c"/>
+        <property schema="shalom_domain_score_communal__c"/>
+        <property schema="shalom_domain_score_environmental__c"/>
+        <property schema="shalom_domain_score_personal__c"/>
+        <property schema="shalom_domain_score_transcendental__c"/>
+        <property schema="spiritual_dissonance_score__c"/>
+        <property schema="stage__c"/>
+        <property schema="total_dollar_ppp__c"/>
+        <property schema="total_income_all__c"/>
+        <property schema="total_income_all_month__c"/>
+        <property schema="total_income_all_ppd__c"/>
+        <property schema="total_income_daily_ppp__c"/>
+        <property schema="total_income_dollar__c"/>
+        <property schema="total_income_dollar_ppd_ppp__c"/>
+        <property schema="total_income_dollar_ppd_xe__c"/>
+        <property schema="total_income_hh__c"/>
+        <property schema="total_income_month_rural_ppp__c"/>
+        <property schema="total_income_monthly_ppp__c"/>
+        <property schema="total_income_ppd_ppp__c"/>
+        <property schema="total_income_ppd_rural_ppp__c"/>
+        <property schema="total_income_ppd_xe__c"/>
+        <property schema="total_return_income__c"/>
+        <property schema="total_return_income_phm__c"/>
+        <property schema="total_return_income_ppd__c"/>
+        <property schema="total_return_income_ppm__c"/>
+        <property schema="transactioncurrencyid"/>
+        <property schema="value_assets__c"/>
+        <property schema="value_bicycle__c"/>
+        <property schema="value_chicken_assets__c"/>
+        <property schema="value_cow__c"/>
+        <property schema="value_duck_assets__c"/>
+        <property schema="value_goat__c"/>
+        <property schema="value_motorbike__c"/>
+        <property schema="value_net_worth__c"/>
+        <property schema="value_ox_plow__c"/>
+        <property schema="value_pig__c"/>
+        <property schema="value_turkey_assets__c"/>
+      </properties>
+      <indexes>
+        <index schema="idx_sf_q_survey__c_account__c" issystem="true">
+          <fields>
+            <field schema="account__c"/>
+          </fields>
+        </index>
+        <index schema="idx_sf_q_survey__c_createdbyid" issystem="true">
+          <fields>
+            <field schema="createdbyid"/>
+          </fields>
+        </index>
+        <index schema="idx_sf_q_survey__c_crop_fields__c" issystem="true">
+          <fields>
+            <field schema="crop_fields__c"/>
+          </fields>
+        </index>
+        <index schema="idx_sf_q_survey__c_crop_production_detail_fields__c" issystem="true">
+          <fields>
+            <field schema="crop_production_detail_fields__c"/>
+          </fields>
+        </index>
+        <index schema="idx_sf_q_survey__c_lastmodifiedbyid" issystem="true">
+          <fields>
+            <field schema="lastmodifiedbyid"/>
+          </fields>
+        </index>
+        <index schema="idx_sf_q_survey__c_ownerid2" issystem="true">
+          <fields>
+            <field schema="ownerid2"/>
+          </fields>
+        </index>
+        <index schema="idx_sf_q_survey__c_recordtypeid" issystem="true">
+          <fields>
+            <field schema="recordtypeid"/>
+          </fields>
+        </index>
+        <index schema="idx_sf_q_survey__c_transactioncurrencyid" issystem="true">
+          <fields>
+            <field schema="transactioncurrencyid"/>
+          </fields>
+        </index>
+        <index schema="idx_sf_q_survey__c_name" issystem="true">
+          <fields>
+            <field schema="name"/>
+          </fields>
+        </index>
+      </indexes>
+    </entity>
+    <entity schema="sf_recordtype">
+      <properties>
+        <property schema="businessprocessid"/>
+        <property schema="createdbyid"/>
+        <property schema="createdon"/>
+        <property schema="description"/>
+        <property schema="developername"/>
+        <property schema="id"/>
+        <property schema="id2"/>
+        <property schema="isactive"/>
+        <property schema="lastmodifiedbyid"/>
+        <property schema="lastmodifieddate"/>
+        <property schema="modifiedon"/>
+        <property schema="name"/>
+        <property schema="namespaceprefix"/>
+        <property schema="sobjecttype"/>
+      </properties>
+      <indexes>
+        <index schema="idx_sf_recordtype_businessprocessid" issystem="true">
+          <fields>
+            <field schema="businessprocessid"/>
+          </fields>
+        </index>
+        <index schema="idx_sf_recordtype_createdbyid" issystem="true">
+          <fields>
+            <field schema="createdbyid"/>
+          </fields>
+        </index>
+        <index schema="idx_sf_recordtype_lastmodifiedbyid" issystem="true">
+          <fields>
+            <field schema="lastmodifiedbyid"/>
+          </fields>
+        </index>
+        <index schema="idx_sf_recordtype_name" issystem="true">
+          <fields>
+            <field schema="name"/>
+          </fields>
+        </index>
+      </indexes>
+    </entity>
+    <entity schema="sf_subincome__c">
+      <properties>
+        <property schema="business_location__c"/>
+        <property schema="business_name__c"/>
+        <property schema="business_number_employees__c"/>
+        <property schema="business_start_capital__c"/>
+        <property schema="business_type__c"/>
+        <property schema="createdbyid"/>
+        <property schema="createdon"/>
+        <property schema="id"/>
+        <property schema="id2"/>
+        <property schema="isdeleted"/>
+        <property schema="lastmodifiedbyid"/>
+        <property schema="lastmodifieddate"/>
+        <property schema="lastreferenceddate"/>
+        <property schema="lastvieweddate"/>
+        <property schema="modifiedon"/>
+        <property schema="name"/>
+        <property schema="ownerid2"/>
+        <property schema="parentincome__c"/>
+        <property schema="profit__c"/>
+        <property schema="revenue__c"/>
+      </properties>
+      <indexes>
+        <index schema="idx_sf_subincome__c_createdbyid" issystem="true">
+          <fields>
+            <field schema="createdbyid"/>
+          </fields>
+        </index>
+        <index schema="idx_sf_subincome__c_lastmodifiedbyid" issystem="true">
+          <fields>
+            <field schema="lastmodifiedbyid"/>
+          </fields>
+        </index>
+        <index schema="idx_sf_subincome__c_ownerid2" issystem="true">
+          <fields>
+            <field schema="ownerid2"/>
+          </fields>
+        </index>
+        <index schema="idx_sf_subincome__c_parentincome__c" issystem="true">
+          <fields>
+            <field schema="parentincome__c"/>
+          </fields>
+        </index>
+        <index schema="idx_sf_subincome__c_name" issystem="true">
+          <fields>
+            <field schema="name"/>
+          </fields>
+        </index>
+      </indexes>
+    </entity>
+    <entity schema="sf_task">
+      <properties>
+        <property schema="accountid"/>
+        <property schema="activitydate"/>
+        <property schema="calldisposition"/>
+        <property schema="calldurationinseconds"/>
+        <property schema="callobject"/>
+        <property schema="calltype"/>
+        <property schema="createdbyid"/>
+        <property schema="createdon"/>
+        <property schema="description"/>
+        <property schema="id"/>
+        <property schema="id2"/>
+        <property schema="isarchived"/>
+        <property schema="isdeleted"/>
+        <property schema="ishighpriority"/>
+        <property schema="modifiedon"/>
+        <property schema="ownerid2"/>
+        <property schema="priority"/>
+        <property schema="reminderdatetime"/>
+        <property schema="status"/>
+        <property schema="subject"/>
+        <property schema="tasksubtype"/>
+        <property schema="whatid"/>
+        <property schema="whoid"/>
+      </properties>
+      <indexes>
+        <index schema="idx_sf_task_accountid" issystem="true">
+          <fields>
+            <field schema="accountid"/>
+          </fields>
+        </index>
+        <index schema="idx_sf_task_createdbyid" issystem="true">
+          <fields>
+            <field schema="createdbyid"/>
+          </fields>
+        </index>
+        <index schema="idx_sf_task_ownerid2" issystem="true">
+          <fields>
+            <field schema="ownerid2"/>
+          </fields>
+        </index>
+        <index schema="idx_sf_task_whatid" issystem="true">
+          <fields>
+            <field schema="whatid"/>
+          </fields>
+        </index>
+        <index schema="idx_sf_task_whoid" issystem="true">
+          <fields>
+            <field schema="whoid"/>
+          </fields>
+        </index>
+        <index schema="idx_sf_task_subject" issystem="true">
+          <fields>
+            <field schema="subject"/>
+          </fields>
+        </index>
+      </indexes>
+    </entity>
+    <entity schema="sf_user" permissions="896" xattr="896">
+      <properties>
+        <property schema="contactid" fieldpermissions="Read Static"/>
+        <property schema="createdon"/>
+        <property schema="department" fieldpermissions="Read Static"/>
+        <property schema="division"/>
+        <property schema="email" displayformat="Email" fieldpermissions="Read Static"/>
+        <property schema="employeenumber" fieldpermissions="Read Static"/>
+        <property schema="firstname"/>
+        <property schema="id"/>
+        <property schema="id2"/>
+        <property schema="languagelocalekey" fieldpermissions="Read Static"/>
+        <property schema="lastname" fieldpermissions="Read Static"/>
+        <property schema="managerid" fieldpermissions="Read Static"/>
+        <property schema="mobilephone" displayformat="PhoneNumber"/>
+        <property schema="modifiedon"/>
+        <property schema="name"/>
+        <property schema="phone" displayformat="PhoneNumber"/>
+        <property schema="title" fieldpermissions="Read Static"/>
+        <property schema="username" fieldpermissions="Read Static"/>
+        <property schema="usertype"/>
+      </properties>
+      <indexes>
+        <index schema="idx_sf_user_contactid" issystem="true">
+          <fields>
+            <field schema="contactid"/>
+          </fields>
+        </index>
+        <index schema="idx_sf_user_managerid" issystem="true">
+          <fields>
+            <field schema="managerid"/>
+          </fields>
+        </index>
+        <index schema="idx_sf_user_name" issystem="true">
+          <fields>
+            <field schema="name"/>
+          </fields>
+        </index>
+      </indexes>
+    </entity>
+    <entity schema="systemuser">
+      <properties>
+        <property schema="createdon"/>
+        <property schema="id"/>
+        <property schema="isdisabled"/>
+        <property schema="modifiedon"/>
+        <property schema="name"/>
+      </properties>
+      <indexes>
+        <index schema="idx_systemuser_name" issystem="true">
+          <fields>
+            <field schema="name"/>
+          </fields>
+        </index>
+      </indexes>
+    </entity>
+    <entity schema="transactioncurrency" class="false">
+      <properties>
+        <property schema="createdon"/>
+        <property schema="currencyprecision"/>
+        <property schema="currencysymbol"/>
+        <property schema="id"/>
+        <property schema="isocurrencycode"/>
+        <property schema="modifiedon"/>
+        <property schema="name"/>
+      </properties>
+      <indexes>
+        <index schema="idx_transactioncurrency_name" issystem="true">
+          <fields>
+            <field schema="name"/>
+          </fields>
+        </index>
+      </indexes>
+    </entity>
+  </entities>
+  <home>!InitialItem</home>
+  <home>@Dashboard;;Service Dashboard</home>
+  <home>@Favorites</home>
+  <home>@Tourplan;;Service Calendar</home>
+  <home>@RoutePlan;;Service Appointment Route</home>
+  <home>#Service</home>
+  <home>sf_serviceappointment</home>
+  <home>sf_workorder;;sf_workorder.*:sf_workorder.@My Active Work Orders</home>
+  <home>sf_asset</home>
+  <home>sf_location;;&lt;extra&gt;&lt;views&gt;sf_location.*:sf_location.@My Locations&lt;/views&gt;&lt;map&gt;&lt;Latitude p3:nil="true" xmlns:p3="http://www.w3.org/2001/XMLSchema-instance" /&gt;&lt;Longitude p3:nil="true" xmlns:p3="http://www.w3.org/2001/XMLSchema-instance" /&gt;&lt;Zoom p3:nil="true" xmlns:p3="http://www.w3.org/2001/XMLSchema-instance" /&gt;&lt;LatitudeField&gt;latitude&lt;/LatitudeField&gt;&lt;LongitudeField&gt;longitude&lt;/LongitudeField&gt;&lt;AggregatePins p3:nil="true" xmlns:p3="http://www.w3.org/2001/XMLSchema-instance" /&gt;&lt;ExpandPins&gt;false&lt;/ExpandPins&gt;&lt;/map&gt;&lt;/extra&gt;</home>
+  <home>sf_case</home>
+  <home>sf_product2</home>
+  <home>sf_account</home>
+  <home>sf_contact</home>
+  <home>sf_serviceresource</home>
+  <home>##</home>
+  <home>#Productivity</home>
+  <home>@Tourplan;;Service Calendar</home>
+  <home>sf_resourceabsence;;&lt;extra&gt;&lt;views&gt;sf_resourceabsence.*:sf_resourceabsence.@My Absences&lt;/views&gt;&lt;actions&gt;3;;1&lt;/actions&gt;&lt;/extra&gt;</home>
+  <home>sf_timesheet;;sf_timesheet.*:sf_timesheet.@My Time Sheets</home>
+  <home>sf_task</home>
+  <home>##</home>
+  <home>#Files</home>
+  <home>sf_contentdocument;Files</home>
+  <home>sf_attachment;;&lt;extra&gt;&lt;actions&gt;0;0;0&lt;/actions&gt;&lt;/extra&gt;</home>
+  <home>##</home>
+  <home>@Setup</home>
+  <home>@About</home>
+</model>

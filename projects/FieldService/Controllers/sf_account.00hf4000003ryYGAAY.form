@@ -1,0 +1,44 @@
+﻿<EntityForm xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:dummy="0" flexi="0" fleximode="1" fullscreen="0" resize="0" version="2">
+  <IsContactForm>false</IsContactForm>
+  <EntityName>sf_account</EntityName>
+  <CamelCase>sf_account</CamelCase>
+  <PrimaryCommands>!defcmd</PrimaryCommands>
+  <EnabledWorkflows>OnLoadEnabled OnChangeEnabled OnSaveEnabled OnExecuteCommand OnCanExecuteCommand</EnabledWorkflows>
+  <SerializedChildrenV2>
+    <FormTab xsi:type="DetailTab">
+      <Name>General</Name>
+      <SerializedChildren>
+        <DetailItem SchemaName="name"/>
+        <DetailItem SchemaName="status__c"/>
+        <DetailItem SchemaName="cohort__c"/>
+        <DetailItem SchemaName="hh_members_manual__c"/>
+        <DetailItem SchemaName="single_home_coord__latitude__s"/>
+        <DetailItem SchemaName="single_home_coord__longitude__s"/>
+        <DetailItem SchemaName="parentid"/>
+        <DetailItem SchemaName="ownerid2"/>
+        <DetailItem SchemaName="Description" separator="true" xsi:type="SeparatorDetailItem">
+          <IsConstant>true</IsConstant>
+        </DetailItem>
+        <DetailItem SchemaName="birthdate__c"/>
+        <DetailItem SchemaName="marital_status__c"/>
+        <DetailItem SchemaName="household_status__c"/>
+        <DetailItem SchemaName="Membership Information" separator="true" xsi:type="SeparatorDetailItem">
+          <IsConstant>true</IsConstant>
+        </DetailItem>
+        <DetailItem SchemaName="npo02__membershipjoindate__c"/>
+      </SerializedChildren>
+    </FormTab>
+    <FormTab xsi:type="AssociatedTab">
+      <Name>Surveys List</Name>
+      <Binding SchemaName="sf_q_survey__c.account__c"/>
+    </FormTab>
+    <FormTab xsi:type="AssociatedTab">
+      <Name>Income List</Name>
+      <Binding SchemaName="sf_crop_production__c.account__c"/>
+    </FormTab>
+    <FormTab xsi:type="AssociatedTab">
+      <Name>Attachments List</Name>
+      <Binding SchemaName="sf_attachment.parentid"/>
+    </FormTab>
+  </SerializedChildrenV2>
+</EntityForm>

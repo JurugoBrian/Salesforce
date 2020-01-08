@@ -1,0 +1,53 @@
+﻿<EntityForm xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:dummy="0" flexi="0" fleximode="1" fullscreen="0" resize="0" version="2">
+  <IsContactForm>false</IsContactForm>
+  <EntityName>sf_crop_production__c</EntityName>
+  <CamelCase>sf_crop_production__c</CamelCase>
+  <PrimaryCommands>!defcmd</PrimaryCommands>
+  <EnabledWorkflows>OnLoadEnabled OnChangeEnabled OnSaveEnabled OnExecuteCommand OnCanExecuteCommand</EnabledWorkflows>
+  <SerializedChildrenV2>
+    <FormTab xsi:type="DetailTab">
+      <Name>General</Name>
+      <SerializedChildren>
+        <DetailItem SchemaName="Account Info" separator="true" xsi:type="SeparatorDetailItem">
+          <IsConstant>true</IsConstant>
+        </DetailItem>
+        <DetailItem SchemaName="account__c"/>
+        <DetailItem SchemaName="stage__c"/>
+        <DetailItem SchemaName="NonFarm Business" separator="true" xsi:type="SeparatorDetailItem">
+          <IsConstant>true</IsConstant>
+        </DetailItem>
+        <DetailItem SchemaName="personal_business_1__c"/>
+        <DetailItem SchemaName="business_1_name__c"/>
+        <DetailItem SchemaName="business_1_location__c"/>
+        <DetailItem SchemaName="personal_business_2__c"/>
+        <DetailItem SchemaName="business_2_name__c"/>
+        <DetailItem SchemaName="business_2_location__c"/>
+        <DetailItem SchemaName="personal_business_3__c"/>
+        <DetailItem SchemaName="business_3_name__c"/>
+        <DetailItem SchemaName="business_3_location__c"/>
+        <DetailItem SchemaName="summary_nonfarm_revenue__c"/>
+        <DetailItem SchemaName="business_1_revenue__c"/>
+        <DetailItem SchemaName="business_1_profit__c"/>
+        <DetailItem SchemaName="starting_capital_bus_1__c"/>
+        <DetailItem SchemaName="number_employees_bus_1__c"/>
+        <DetailItem SchemaName="business_2_revenue__c"/>
+        <DetailItem SchemaName="business_2_profit__c"/>
+        <DetailItem SchemaName="starting_capital_bus_2__c"/>
+        <DetailItem SchemaName="number_employees_bus_2__c"/>
+        <DetailItem SchemaName="business_3_revenue__c"/>
+        <DetailItem SchemaName="business_3_profit__c"/>
+        <DetailItem SchemaName="starting_capital_bus_3__c"/>
+        <DetailItem SchemaName="number_employees_bus_3__c"/>
+      </SerializedChildren>
+    </FormTab>
+    <FormTab xsi:type="AssociatedTab">
+      <Name>Crop Production Details List</Name>
+      <Binding SchemaName="sf_crop_production_detail__c.crop__c"/>
+    </FormTab>
+    <FormTab xsi:type="AssociatedTab">
+      <Name>SubIncome</Name>
+      <CustomName>SubIncome</CustomName>
+      <Binding SchemaName="sf_subincome__c.parentincome__c"/>
+    </FormTab>
+  </SerializedChildrenV2>
+</EntityForm>

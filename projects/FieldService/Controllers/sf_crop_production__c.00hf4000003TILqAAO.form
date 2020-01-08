@@ -1,0 +1,167 @@
+﻿<EntityForm xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:dummy="0" flexi="0" fleximode="1" fullscreen="0" resize="0" version="2">
+  <IsContactForm>false</IsContactForm>
+  <EntityName>sf_crop_production__c</EntityName>
+  <CamelCase>sf_crop_production__c</CamelCase>
+  <PrimaryCommands>!defcmd</PrimaryCommands>
+  <EnabledWorkflows>OnLoadEnabled OnChangeEnabled OnSaveEnabled OnExecuteCommand OnCanExecuteCommand</EnabledWorkflows>
+  <SerializedChildrenV2>
+    <FormTab xsi:type="DetailTab">
+      <Name>General</Name>
+      <SerializedChildren>
+        <DetailItem SchemaName="Survey Detail" separator="true" xsi:type="SeparatorDetailItem">
+          <IsConstant>true</IsConstant>
+        </DetailItem>
+        <DetailItem SchemaName="account__c"/>
+        <DetailItem SchemaName="stage__c"/>
+        <DetailItem SchemaName="data_updates__c"/>
+        <DetailItem SchemaName="Crop 1" separator="true" xsi:type="SeparatorDetailItem">
+          <IsConstant>true</IsConstant>
+        </DetailItem>
+        <DetailItem SchemaName="crop_type_1__c"/>
+        <DetailItem SchemaName="crop_1_acreage__c"/>
+        <DetailItem SchemaName="crop_1_consumption_quantity__c"/>
+        <DetailItem SchemaName="crop_1_sales_quantity__c"/>
+        <DetailItem SchemaName="actual_unit_price_crop_1__c"/>
+        <DetailItem SchemaName="Crop 1 Status" separator="true" xsi:type="SeparatorDetailItem">
+          <IsConstant>true</IsConstant>
+        </DetailItem>
+        <DetailItem SchemaName="crop_1_1st_plough__c"/>
+        <DetailItem SchemaName="crop_1_2nd_plough__c"/>
+        <DetailItem SchemaName="crop_1_planting__c"/>
+        <DetailItem SchemaName="crop_1_germination__c"/>
+        <DetailItem SchemaName="crop_1_1st_weed__c"/>
+        <DetailItem SchemaName="crop_1_2nd_weed__c"/>
+        <DetailItem SchemaName="crop_1_cost_first_plow__c"/>
+        <DetailItem SchemaName="crop_1_cost_second_plow__c"/>
+        <DetailItem SchemaName="crop_1_cost_seeds__c"/>
+        <DetailItem SchemaName="crop_1_cost_weeding__c"/>
+        <DetailItem SchemaName="crop_1_cost_harvest__c"/>
+        <DetailItem SchemaName="crop_1_cost_rent__c"/>
+        <DetailItem SchemaName="crop_1_cost_other__c"/>
+        <DetailItem SchemaName="Crop 2" separator="true" xsi:type="SeparatorDetailItem">
+          <IsConstant>true</IsConstant>
+        </DetailItem>
+        <DetailItem SchemaName="crop_type_2__c"/>
+        <DetailItem SchemaName="crop_2_acreage__c"/>
+        <DetailItem SchemaName="crop_2_consumption_quantity__c"/>
+        <DetailItem SchemaName="crop_2_sales_quantity__c"/>
+        <DetailItem SchemaName="actual_unit_price_crop_2__c"/>
+        <DetailItem SchemaName="Crop 2 Status" separator="true" xsi:type="SeparatorDetailItem">
+          <IsConstant>true</IsConstant>
+        </DetailItem>
+        <DetailItem SchemaName="crop_2_1st_plough__c"/>
+        <DetailItem SchemaName="crop_2_2nd_plough__c"/>
+        <DetailItem SchemaName="crop_2_planting__c"/>
+        <DetailItem SchemaName="crop_2_germination__c"/>
+        <DetailItem SchemaName="crop_2_1st_weed__c"/>
+        <DetailItem SchemaName="crop_2_2nd_weed__c"/>
+        <DetailItem SchemaName="crop_2_cost_first_plow__c"/>
+        <DetailItem SchemaName="crop_2_cost_second_plow__c"/>
+        <DetailItem SchemaName="crop_2_cost_rent__c"/>
+        <DetailItem SchemaName="crop_2_cost_seeds__c"/>
+        <DetailItem SchemaName="crop_2_cost_weeding__c"/>
+        <DetailItem SchemaName="crop_2_cost_harvest__c"/>
+        <DetailItem SchemaName="crop_2_cost_other__c"/>
+        <DetailItem SchemaName="Crop 3" separator="true" xsi:type="SeparatorDetailItem">
+          <IsConstant>true</IsConstant>
+        </DetailItem>
+        <DetailItem SchemaName="crop_type_3__c"/>
+        <DetailItem SchemaName="crop_3_acreage__c"/>
+        <DetailItem SchemaName="crop_3_consumption_quantity__c"/>
+        <DetailItem SchemaName="crop_3_sales_quantity__c"/>
+        <DetailItem SchemaName="actual_unit_price_crop_3__c"/>
+        <DetailItem SchemaName="Crop 3 Status" separator="true" xsi:type="SeparatorDetailItem">
+          <IsConstant>true</IsConstant>
+        </DetailItem>
+        <DetailItem SchemaName="crop_3_1st_plough__c"/>
+        <DetailItem SchemaName="crop_3_2nd_plough__c"/>
+        <DetailItem SchemaName="crop_3_planting__c"/>
+        <DetailItem SchemaName="crop_3_germination__c"/>
+        <DetailItem SchemaName="crop_3_1st_weed__c"/>
+        <DetailItem SchemaName="crop_3_2nd_weed__c"/>
+        <DetailItem SchemaName="crop_3_cost_first_plow__c"/>
+        <DetailItem SchemaName="crop_3_cost_second_plow__c"/>
+        <DetailItem SchemaName="crop_3_cost_seeds__c"/>
+        <DetailItem SchemaName="crop_3_cost_rent__c"/>
+        <DetailItem SchemaName="crop_3_cost_weeding__c"/>
+        <DetailItem SchemaName="crop_3_cost_harvest__c"/>
+        <DetailItem SchemaName="crop_3_cost_other__c"/>
+        <DetailItem SchemaName="Crop 4" separator="true" xsi:type="SeparatorDetailItem">
+          <IsConstant>true</IsConstant>
+        </DetailItem>
+        <DetailItem SchemaName="crop_type_4__c"/>
+        <DetailItem SchemaName="crop_4_acreage__c"/>
+        <DetailItem SchemaName="crop_4_consumption_quantity__c"/>
+        <DetailItem SchemaName="crop_4_sales_quantity__c"/>
+        <DetailItem SchemaName="actual_unit_price_crop_4__c"/>
+        <DetailItem SchemaName="Crop 4 Status" separator="true" xsi:type="SeparatorDetailItem">
+          <IsConstant>true</IsConstant>
+        </DetailItem>
+        <DetailItem SchemaName="crop_4_1st_plough__c"/>
+        <DetailItem SchemaName="crop_4_2nd_plough__c"/>
+        <DetailItem SchemaName="crop_4_planting__c"/>
+        <DetailItem SchemaName="crop_4_germination__c"/>
+        <DetailItem SchemaName="crop_4_1st_weed__c"/>
+        <DetailItem SchemaName="crop_4_2nd_weed__c"/>
+        <DetailItem SchemaName="crop_4_cost_first_plow__c"/>
+        <DetailItem SchemaName="crop_4_cost_second_plow__c"/>
+        <DetailItem SchemaName="crop_4_cost_seeds__c"/>
+        <DetailItem SchemaName="crop_4_cost_rent__c"/>
+        <DetailItem SchemaName="crop_4_cost_weeding__c"/>
+        <DetailItem SchemaName="crop_4_cost_harvest__c"/>
+        <DetailItem SchemaName="crop_4_cost_other__c"/>
+        <DetailItem SchemaName="Crop 5" separator="true" xsi:type="SeparatorDetailItem">
+          <IsConstant>true</IsConstant>
+        </DetailItem>
+        <DetailItem SchemaName="crop_type_5__c"/>
+        <DetailItem SchemaName="crop_5_acreage__c"/>
+        <DetailItem SchemaName="crop_5_consumption_quantity__c"/>
+        <DetailItem SchemaName="crop_5_sales_quantity__c"/>
+        <DetailItem SchemaName="actual_unit_price_crop_5__c"/>
+        <DetailItem SchemaName="Crop 5 Status" separator="true" xsi:type="SeparatorDetailItem">
+          <IsConstant>true</IsConstant>
+        </DetailItem>
+        <DetailItem SchemaName="crop_5_1st_plough__c"/>
+        <DetailItem SchemaName="crop_5_2nd_plough__c"/>
+        <DetailItem SchemaName="crop_5_planting__c"/>
+        <DetailItem SchemaName="crop_5_germination__c"/>
+        <DetailItem SchemaName="crop_5_1st_weed__c"/>
+        <DetailItem SchemaName="crop_5_2nd_weed__c"/>
+        <DetailItem SchemaName="crop_5_cost_first_plow__c"/>
+        <DetailItem SchemaName="crop_5_cost_rent__c"/>
+        <DetailItem SchemaName="crop_5_cost_harvest__c"/>
+        <DetailItem SchemaName="crop_5_cost_second_plow__c"/>
+        <DetailItem SchemaName="crop_5_cost_seeds__c"/>
+        <DetailItem SchemaName="crop_5_cost_weeding__c"/>
+        <DetailItem SchemaName="Crop Summary" separator="true" xsi:type="SeparatorDetailItem">
+          <IsConstant>true</IsConstant>
+        </DetailItem>
+        <DetailItem SchemaName="survey_fields__c"/>
+        <DetailItem SchemaName="summary_net_profit__c"/>
+        <DetailItem SchemaName="summary_sales_value__c"/>
+        <DetailItem SchemaName="summary_sales_profit__c"/>
+        <DetailItem SchemaName="summary_revenue_value__c"/>
+        <DetailItem SchemaName="summary_consumption_value__c"/>
+        <DetailItem SchemaName="summary_total_acres__c"/>
+        <DetailItem SchemaName="Information" separator="true" xsi:type="SeparatorDetailItem">
+          <IsConstant>true</IsConstant>
+        </DetailItem>
+        <DetailItem SchemaName="name"/>
+        <DetailItem SchemaName="ownerid2"/>
+      </SerializedChildren>
+    </FormTab>
+    <FormTab xsi:type="IFrameTab">
+      <Name>Web</Name>
+      <Url></Url>
+    </FormTab>
+    <FormTab xsi:type="AssociatedTab">
+      <Name>SubIncome List</Name>
+      <Binding SchemaName="sf_subincome__c.parentincome__c"/>
+    </FormTab>
+    <FormTab xsi:type="AssociatedTab">
+      <Name>Crop_Production_Details</Name>
+      <CustomName>Crop_Production_Details</CustomName>
+      <Binding SchemaName="sf_crop_production_detail__c.crop__c"/>
+    </FormTab>
+  </SerializedChildrenV2>
+</EntityForm>
