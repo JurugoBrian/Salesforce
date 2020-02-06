@@ -1,0 +1,143 @@
+Start At:,"01/22/2020"
+""End At:,"02/06/2020"
+""User:,"Undefined"
+""Sync Type:,"All"
+""OS Type:,"iOS"
+""Item Type:,"Success, Tips, Errors, Conflicts, Warnings"
+
+"SyncStart","SyncType","Times Total (min:sec)","Mode","Sent","Recv","Message","Project Name / Date","WWW version / Date","User","Device"
+"01/27/2020 12:54:29 PM","FullSync","04:15","Foreground","1","14629","Error message: Exception while fetching entity sf_q_survey__c
+The operation has timed out
+HTTP Error Timeout
+The operation has timed out","ProjectRole (01/21/2020 07:36:21 PM)","8d9d4af1-e6b4-4b4e-ac76-31a0a566d4fe (01/27/2020 12:54:43 PM)","Ivan Brian Anyanzo","DESKTOP-A56KSQD"
+"02/04/2020 03:41:23 PM","NoSync","02:56","Foreground","1","0","Error message: One or more errors occurred. (An SSL error has occurred and a secure connection to the server cannot be made. (-1200))
+Web request failed: An SSL error has occurred and a secure connection to the server cannot be made. (-1200)","ProjectRole (02/04/2020 01:22:36 PM)","8d9d4af1-e6b4-4b4e-ac76-31a0a566d4fe (01/28/2020 12:34:50 PM)","Ivan Brian Anyanzo","Jurugo’s iPad"
+"01/22/2020 12:19:52 PM","FullSync","02:14","Foreground","1","15185","Tip message: SyncDownloader paused for 53%; consider cache size increase.","ProjectRole (01/21/2020 07:36:21 PM)","8d9d4af1-e6b4-4b4e-ac76-31a0a566d4fe (01/22/2020 12:20:09 PM)","Ivan Brian Anyanzo","Jurugu"
+"01/27/2020 05:54:55 PM","IncSync","01:52","Foreground","2","2000","Error message: Exception while fetching entity sf_q_survey__c
+&lt;h1&gt;Bad Message 431&lt;/h1&gt;&lt;pre&gt;reason: Request Header Fields Too Large&lt;/pre&gt;
+HTTP Error client error (431)","ProjectRole (01/21/2020 07:36:21 PM)","8d9d4af1-e6b4-4b4e-ac76-31a0a566d4fe (01/27/2020 03:00:03 PM)","Ivan Brian Anyanzo","Idro’s iPad"
+"01/27/2020 02:59:25 PM","FullSync","01:01","Foreground","1","3092","Error message: Exception while fetching entity sf_q_survey__c
+&lt;h1&gt;Bad Message 431&lt;/h1&gt;&lt;pre&gt;reason: Request Header Fields Too Large&lt;/pre&gt;
+HTTP Error client error (431)","ProjectRole (01/21/2020 07:36:21 PM)","8d9d4af1-e6b4-4b4e-ac76-31a0a566d4fe (01/27/2020 03:00:03 PM)","Ivan Brian Anyanzo","Idro’s iPad"
+"01/27/2020 01:18:48 PM","IncSync","01:00","Foreground","2","12093","Conflict message: ","ProjectRole (01/21/2020 07:36:21 PM)","8d9d4af1-e6b4-4b4e-ac76-31a0a566d4fe (01/27/2020 12:54:43 PM)","Ivan Brian Anyanzo","DESKTOP-A56KSQD"
+"02/04/2020 04:03:03 PM","IncSync","00:53","Foreground","2","1006","Conflict message: ","ProjectRole (02/04/2020 01:22:36 PM)","8d9d4af1-e6b4-4b4e-ac76-31a0a566d4fe (01/28/2020 12:08:44 PM)","Ivan Brian Anyanzo","Idro’s iPad"
+"01/30/2020 09:53:20 AM","IncSync","00:39","Foreground","2","9426","Conflict message: ","ProjectRole (01/30/2020 09:52:16 AM)","8d9d4af1-e6b4-4b4e-ac76-31a0a566d4fe (01/28/2020 11:39:28 AM)","Ivan Brian Anyanzo","Idro’s iPad (2)"
+"01/31/2020 10:03:43 AM","IncSync","00:35","Foreground","2","1","Conflict message: ","ProjectRole (01/31/2020 10:01:51 AM)","8d9d4af1-e6b4-4b4e-ac76-31a0a566d4fe (01/28/2020 12:08:44 PM)","Ivan Brian Anyanzo","Idro’s iPad"
+"01/30/2020 11:04:41 AM","IncSync","00:34","Foreground","2","13982","Conflict message: ","ProjectRole (01/30/2020 10:11:20 AM)","8d9d4af1-e6b4-4b4e-ac76-31a0a566d4fe (01/28/2020 12:08:44 PM)","Ivan Brian Anyanzo","Idro’s iPad"
+"02/06/2020 12:55:55 PM","IncSync","00:34","Foreground","3","14005","Conflict message: ","ProjectRole (02/04/2020 01:22:36 PM)","8d9d4af1-e6b4-4b4e-ac76-31a0a566d4fe (01/28/2020 12:34:50 PM)","Ivan Brian Anyanzo","Jurugo’s iPad"
+"01/28/2020 05:08:01 PM","IncSync","00:31","Foreground","2","0","Error message: Exception while fetching entity sf_q_survey__c
+&lt;h1&gt;Bad Message 431&lt;/h1&gt;&lt;pre&gt;reason: Request Header Fields Too Large&lt;/pre&gt;
+HTTP Error client error (431)","ProjectRole (01/28/2020 05:05:51 PM)","8d9d4af1-e6b4-4b4e-ac76-31a0a566d4fe (01/28/2020 12:34:50 PM)","Ivan Brian Anyanzo","Jurugo’s iPad"
+"01/30/2020 10:55:47 AM","IncSync","00:30","Foreground","3","13982","Conflict message: ","ProjectRole (01/30/2020 10:11:20 AM)","8d9d4af1-e6b4-4b4e-ac76-31a0a566d4fe (01/27/2020 03:00:03 PM)","Ivan Brian Anyanzo","Idro’s iPad"
+"01/27/2020 05:52:47 PM","IncSync","00:30","Foreground","2","0","Error message: Exception while fetching entity sf_q_survey__c
+&lt;h1&gt;Bad Message 431&lt;/h1&gt;&lt;pre&gt;reason: Request Header Fields Too Large&lt;/pre&gt;
+HTTP Error client error (431)","ProjectRole (01/21/2020 07:36:21 PM)","8d9d4af1-e6b4-4b4e-ac76-31a0a566d4fe (01/20/2020 06:20:49 PM)","Ivan Brian Anyanzo","Idro’s iPad"
+"01/30/2020 10:14:27 AM","IncSync","00:30","Foreground","2","4556","Conflict message: ","ProjectRole (01/30/2020 10:11:20 AM)","8d9d4af1-e6b4-4b4e-ac76-31a0a566d4fe (01/28/2020 11:39:28 AM)","Ivan Brian Anyanzo","Idro’s iPad (2)"
+"01/28/2020 11:39:16 AM","FullSync","00:29","Foreground","1","2000","Error message: Exception while fetching entity sf_q_survey__c
+&lt;h1&gt;Bad Message 431&lt;/h1&gt;&lt;pre&gt;reason: Request Header Fields Too Large&lt;/pre&gt;
+HTTP Error client error (431)","ProjectRole (01/21/2020 07:36:21 PM)","8d9d4af1-e6b4-4b4e-ac76-31a0a566d4fe (01/28/2020 11:39:28 AM)","Ivan Brian Anyanzo","Idro’s iPad (2)"
+"01/28/2020 05:53:06 PM","IncSync","00:27","Foreground","2","0","Error message: Exception while fetching entity sf_q_survey__c
+&lt;h1&gt;Bad Message 431&lt;/h1&gt;&lt;pre&gt;reason: Request Header Fields Too Large&lt;/pre&gt;
+HTTP Error client error (431)","ProjectRole (01/28/2020 05:49:40 PM)","8d9d4af1-e6b4-4b4e-ac76-31a0a566d4fe (01/28/2020 12:34:50 PM)","Ivan Brian Anyanzo","Jurugo’s iPad"
+"01/29/2020 02:30:27 PM","IncSync","00:27","Foreground","2","4","Error message: Exception while fetching entity sf_q_survey__c
+&lt;h1&gt;Bad Message 431&lt;/h1&gt;&lt;pre&gt;reason: Request Header Fields Too Large&lt;/pre&gt;
+HTTP Error client error (431)","ProjectRole (01/29/2020 12:42:31 PM)","8d9d4af1-e6b4-4b4e-ac76-31a0a566d4fe (01/28/2020 11:39:28 AM)","Ivan Brian Anyanzo","Idro’s iPad (2)"
+"01/28/2020 12:34:37 PM","FullSync","00:27","Foreground","1","1500","Error message: Exception while fetching entity sf_q_survey__c
+&lt;h1&gt;Bad Message 431&lt;/h1&gt;&lt;pre&gt;reason: Request Header Fields Too Large&lt;/pre&gt;
+HTTP Error client error (431)","ProjectRole (01/21/2020 07:36:21 PM)","8d9d4af1-e6b4-4b4e-ac76-31a0a566d4fe (01/28/2020 12:34:50 PM)","Ivan Brian Anyanzo","Jurugo’s iPad"
+"01/30/2020 09:59:31 AM","IncSync","00:26","Foreground","2","4556","Conflict message: ","ProjectRole (01/30/2020 09:58:05 AM)","8d9d4af1-e6b4-4b4e-ac76-31a0a566d4fe (01/28/2020 11:39:28 AM)","Ivan Brian Anyanzo","Idro’s iPad (2)"
+"01/22/2020 06:10:48 PM","IncSync","00:26","Foreground","2","0","Conflict message: ","ProjectRole (01/21/2020 07:36:21 PM)","8d9d4af1-e6b4-4b4e-ac76-31a0a566d4fe (01/22/2020 12:20:09 PM)","Ivan Brian Anyanzo","Jurugu"
+"01/28/2020 05:18:09 PM","IncSync","00:26","Foreground","2","0","Error message: Exception while fetching entity sf_q_survey__c
+&lt;h1&gt;Bad Message 431&lt;/h1&gt;&lt;pre&gt;reason: Request Header Fields Too Large&lt;/pre&gt;
+HTTP Error client error (431)","ProjectRole (01/28/2020 05:14:36 PM)","8d9d4af1-e6b4-4b4e-ac76-31a0a566d4fe (01/28/2020 12:34:50 PM)","Ivan Brian Anyanzo","Jurugo’s iPad"
+"01/22/2020 06:00:32 PM","IncSync","00:25","Foreground","2","6092","Error message: Exception while fetching entity sf_q_survey__c
+&lt;h1&gt;Bad Message 431&lt;/h1&gt;&lt;pre&gt;reason: Request Header Fields Too Large&lt;/pre&gt;
+HTTP Error client error (431)","ProjectRole (01/21/2020 07:36:21 PM)","8d9d4af1-e6b4-4b4e-ac76-31a0a566d4fe (01/20/2020 06:20:49 PM)","Ivan Brian Anyanzo","Idro’s iPad"
+"01/28/2020 11:40:35 AM","IncSync","00:25","Foreground","2","5092","Error message: Exception while fetching entity sf_q_survey__c
+&lt;h1&gt;Bad Message 431&lt;/h1&gt;&lt;pre&gt;reason: Request Header Fields Too Large&lt;/pre&gt;
+HTTP Error client error (431)","ProjectRole (01/21/2020 07:36:21 PM)","8d9d4af1-e6b4-4b4e-ac76-31a0a566d4fe (01/28/2020 11:39:28 AM)","Ivan Brian Anyanzo","Idro’s iPad (2)"
+"01/28/2020 03:29:35 PM","IncSync","00:24","Foreground","2","2500","Error message: Exception while fetching entity sf_q_survey__c
+&lt;h1&gt;Bad Message 431&lt;/h1&gt;&lt;pre&gt;reason: Request Header Fields Too Large&lt;/pre&gt;
+HTTP Error client error (431)","ProjectRole (01/21/2020 07:36:21 PM)","8d9d4af1-e6b4-4b4e-ac76-31a0a566d4fe (01/28/2020 12:34:50 PM)","Ivan Brian Anyanzo","Jurugo’s iPad"
+"01/30/2020 06:28:19 PM","IncSync","00:24","Foreground","2","13981","Tip message: SyncDownloader paused for 21%; consider cache size increase.","ProjectRole (01/30/2020 12:02:23 PM)","8d9d4af1-e6b4-4b4e-ac76-31a0a566d4fe (01/20/2020 06:23:53 PM)","Arthur Price","iPhone (4)"
+"01/23/2020 11:11:32 AM","IncSync","00:23","Foreground","2","1000","Error message: Exception while fetching entity sf_q_survey__c
+&lt;h1&gt;Bad Message 431&lt;/h1&gt;&lt;pre&gt;reason: Request Header Fields Too Large&lt;/pre&gt;
+HTTP Error client error (431)","ProjectRole (01/21/2020 07:36:21 PM)","8d9d4af1-e6b4-4b4e-ac76-31a0a566d4fe (01/20/2020 06:20:49 PM)","Ivan Brian Anyanzo","Idro’s iPad"
+"01/28/2020 12:08:34 PM","FullSync","00:23","Foreground","1","2000","Error message: Exception while fetching entity sf_q_survey__c
+&lt;h1&gt;Bad Message 431&lt;/h1&gt;&lt;pre&gt;reason: Request Header Fields Too Large&lt;/pre&gt;
+HTTP Error client error (431)","ProjectRole (01/21/2020 07:36:21 PM)","8d9d4af1-e6b4-4b4e-ac76-31a0a566d4fe (01/28/2020 12:08:44 PM)","Ivan Brian Anyanzo","Idro’s iPad"
+"01/27/2020 01:30:19 PM","IncSync","00:23","Foreground","2","1000","Error message: Exception while fetching entity sf_q_survey__c
+&lt;h1&gt;Bad Message 431&lt;/h1&gt;&lt;pre&gt;reason: Request Header Fields Too Large&lt;/pre&gt;
+HTTP Error client error (431)","ProjectRole (01/21/2020 07:36:21 PM)","8d9d4af1-e6b4-4b4e-ac76-31a0a566d4fe (01/20/2020 06:20:49 PM)","Ivan Brian Anyanzo","Idro’s iPad"
+"01/28/2020 05:20:58 PM","IncSync","00:22","Foreground","2","2500","Error message: Exception while fetching entity sf_q_survey__c
+&lt;h1&gt;Bad Message 431&lt;/h1&gt;&lt;pre&gt;reason: Request Header Fields Too Large&lt;/pre&gt;
+HTTP Error client error (431)","ProjectRole (01/28/2020 05:14:36 PM)","8d9d4af1-e6b4-4b4e-ac76-31a0a566d4fe (01/28/2020 12:34:50 PM)","Ivan Brian Anyanzo","Jurugo’s iPad"
+"01/23/2020 11:38:30 AM","IncSync","00:22","Foreground","2","0","Error message: Exception while fetching entity sf_q_survey__c
+&lt;h1&gt;Bad Message 431&lt;/h1&gt;&lt;pre&gt;reason: Request Header Fields Too Large&lt;/pre&gt;
+HTTP Error client error (431)","ProjectRole (01/21/2020 07:36:21 PM)","8d9d4af1-e6b4-4b4e-ac76-31a0a566d4fe (01/20/2020 06:20:49 PM)","Ivan Brian Anyanzo","Idro’s iPad"
+"01/28/2020 04:45:30 PM","IncSync","00:22","Foreground","2","2000","Error message: Exception while fetching entity sf_q_survey__c
+&lt;h1&gt;Bad Message 431&lt;/h1&gt;&lt;pre&gt;reason: Request Header Fields Too Large&lt;/pre&gt;
+HTTP Error client error (431)","ProjectRole (01/21/2020 07:36:21 PM)","8d9d4af1-e6b4-4b4e-ac76-31a0a566d4fe (01/28/2020 12:34:50 PM)","Ivan Brian Anyanzo","Jurugo’s iPad"
+"01/28/2020 05:14:31 PM","IncSync","00:21","Foreground","2","2500","Error message: Exception while fetching entity sf_q_survey__c
+&lt;h1&gt;Bad Message 431&lt;/h1&gt;&lt;pre&gt;reason: Request Header Fields Too Large&lt;/pre&gt;
+HTTP Error client error (431)","ProjectRole (01/28/2020 05:05:51 PM)","8d9d4af1-e6b4-4b4e-ac76-31a0a566d4fe (01/28/2020 12:34:50 PM)","Ivan Brian Anyanzo","Jurugo’s iPad"
+"01/22/2020 06:13:41 PM","IncSync","00:21","Foreground","2","0","Conflict message: ","ProjectRole (01/21/2020 07:36:21 PM)","8d9d4af1-e6b4-4b4e-ac76-31a0a566d4fe (01/22/2020 12:20:09 PM)","Ivan Brian Anyanzo","Jurugu"
+"01/22/2020 06:12:31 PM","IncSync","00:21","Foreground","2","0","Conflict message: ","ProjectRole (01/21/2020 07:36:21 PM)","8d9d4af1-e6b4-4b4e-ac76-31a0a566d4fe (01/22/2020 12:20:09 PM)","Ivan Brian Anyanzo","Jurugu"
+"01/31/2020 10:13:30 AM","IncSync","00:20","Foreground","2","0","Conflict message: ","ProjectRole (01/31/2020 10:12:28 AM)","8d9d4af1-e6b4-4b4e-ac76-31a0a566d4fe (01/28/2020 12:08:44 PM)","Ivan Brian Anyanzo","Idro’s iPad"
+"01/28/2020 04:16:43 PM","IncSync","00:20","Foreground","2","1500","Error message: Exception while fetching entity sf_q_survey__c
+&lt;h1&gt;Bad Message 431&lt;/h1&gt;&lt;pre&gt;reason: Request Header Fields Too Large&lt;/pre&gt;
+HTTP Error client error (431)","ProjectRole (01/21/2020 07:36:21 PM)","8d9d4af1-e6b4-4b4e-ac76-31a0a566d4fe (01/28/2020 12:34:50 PM)","Ivan Brian Anyanzo","Jurugo’s iPad"
+"01/23/2020 11:13:55 AM","IncSync","00:20","Foreground","2","1000","Error message: Exception while fetching entity sf_q_survey__c
+&lt;h1&gt;Bad Message 431&lt;/h1&gt;&lt;pre&gt;reason: Request Header Fields Too Large&lt;/pre&gt;
+HTTP Error client error (431)","ProjectRole (01/21/2020 07:36:21 PM)","8d9d4af1-e6b4-4b4e-ac76-31a0a566d4fe (01/20/2020 06:20:49 PM)","Ivan Brian Anyanzo","Idro’s iPad"
+"01/28/2020 12:41:45 PM","IncSync","00:20","Foreground","2","4092","Error message: Exception while fetching entity sf_q_survey__c
+&lt;h1&gt;Bad Message 431&lt;/h1&gt;&lt;pre&gt;reason: Request Header Fields Too Large&lt;/pre&gt;
+HTTP Error client error (431)","ProjectRole (01/21/2020 07:36:21 PM)","8d9d4af1-e6b4-4b4e-ac76-31a0a566d4fe (01/28/2020 12:34:50 PM)","Ivan Brian Anyanzo","Jurugo’s iPad"
+"01/22/2020 06:20:57 PM","IncSync","00:19","Foreground","2","0","Conflict message: ","ProjectRole (01/21/2020 07:36:21 PM)","8d9d4af1-e6b4-4b4e-ac76-31a0a566d4fe (01/22/2020 12:20:09 PM)","Ivan Brian Anyanzo","Jurugu"
+"01/22/2020 06:06:36 PM","IncSync","00:19","Foreground","2","2000","Error message: Exception while fetching entity sf_q_survey__c
+&lt;h1&gt;Bad Message 431&lt;/h1&gt;&lt;pre&gt;reason: Request Header Fields Too Large&lt;/pre&gt;
+HTTP Error client error (431)","ProjectRole (01/21/2020 07:36:21 PM)","8d9d4af1-e6b4-4b4e-ac76-31a0a566d4fe (01/20/2020 06:20:49 PM)","Ivan Brian Anyanzo","Idro’s iPad"
+"01/27/2020 01:26:15 PM","IncSync","00:17","Foreground","2","0","Conflict message: ","ProjectRole (01/21/2020 07:36:21 PM)","8d9d4af1-e6b4-4b4e-ac76-31a0a566d4fe (01/27/2020 12:54:43 PM)","Ivan Brian Anyanzo","DESKTOP-A56KSQD"
+"01/28/2020 12:42:51 PM","IncSync","00:17","Foreground","2","2500","Error message: Exception while fetching entity sf_q_survey__c
+&lt;h1&gt;Bad Message 431&lt;/h1&gt;&lt;pre&gt;reason: Request Header Fields Too Large&lt;/pre&gt;
+HTTP Error client error (431)","ProjectRole (01/21/2020 07:36:21 PM)","8d9d4af1-e6b4-4b4e-ac76-31a0a566d4fe (01/28/2020 12:34:50 PM)","Ivan Brian Anyanzo","Jurugo’s iPad"
+"01/23/2020 11:12:44 AM","IncSync","00:17","Foreground","2","1000","Error message: Exception while fetching entity sf_q_survey__c
+&lt;h1&gt;Bad Message 431&lt;/h1&gt;&lt;pre&gt;reason: Request Header Fields Too Large&lt;/pre&gt;
+HTTP Error client error (431)","ProjectRole (01/21/2020 07:36:21 PM)","8d9d4af1-e6b4-4b4e-ac76-31a0a566d4fe (01/20/2020 06:20:49 PM)","Ivan Brian Anyanzo","Idro’s iPad"
+"01/22/2020 09:13:41 AM","IncSync","00:17","Foreground","2","0","Error message: Exception while fetching entity sf_q_survey__c
+&lt;h1&gt;Bad Message 431&lt;/h1&gt;&lt;pre&gt;reason: Request Header Fields Too Large&lt;/pre&gt;
+HTTP Error client error (431)","ProjectRole (01/21/2020 07:36:21 PM)","8d9d4af1-e6b4-4b4e-ac76-31a0a566d4fe (01/20/2020 06:23:53 PM)","Arthur Price","iPhone (4)"
+"01/28/2020 12:14:53 PM","IncSync","00:17","Foreground","2","2000","Error message: Exception while fetching entity sf_q_survey__c
+&lt;h1&gt;Bad Message 431&lt;/h1&gt;&lt;pre&gt;reason: Request Header Fields Too Large&lt;/pre&gt;
+HTTP Error client error (431)","ProjectRole (01/21/2020 07:36:21 PM)","8d9d4af1-e6b4-4b4e-ac76-31a0a566d4fe (01/28/2020 12:08:44 PM)","Ivan Brian Anyanzo","Idro’s iPad"
+"01/22/2020 06:24:40 PM","IncSync","00:17","Foreground","2","1000","Error message: Exception while fetching entity sf_q_survey__c
+&lt;h1&gt;Bad Message 431&lt;/h1&gt;&lt;pre&gt;reason: Request Header Fields Too Large&lt;/pre&gt;
+HTTP Error client error (431)","ProjectRole (01/21/2020 07:36:21 PM)","8d9d4af1-e6b4-4b4e-ac76-31a0a566d4fe (01/20/2020 06:20:49 PM)","Ivan Brian Anyanzo","Idro’s iPad"
+"01/27/2020 06:09:11 PM","IncSync","00:16","Foreground","2","1000","Error message: Exception while fetching entity sf_q_survey__c
+&lt;h1&gt;Bad Message 431&lt;/h1&gt;&lt;pre&gt;reason: Request Header Fields Too Large&lt;/pre&gt;
+HTTP Error client error (431)","ProjectRole (01/21/2020 07:36:21 PM)","8d9d4af1-e6b4-4b4e-ac76-31a0a566d4fe (01/20/2020 06:20:49 PM)","Ivan Brian Anyanzo","Idro’s iPad"
+"01/22/2020 06:18:38 PM","IncSync","00:15","Foreground","2","1000","Error message: Exception while fetching entity sf_q_survey__c
+&lt;h1&gt;Bad Message 431&lt;/h1&gt;&lt;pre&gt;reason: Request Header Fields Too Large&lt;/pre&gt;
+HTTP Error client error (431)","ProjectRole (01/21/2020 07:36:21 PM)","8d9d4af1-e6b4-4b4e-ac76-31a0a566d4fe (01/20/2020 06:20:49 PM)","Ivan Brian Anyanzo","Idro’s iPad"
+"01/27/2020 06:10:50 PM","IncSync","00:15","Foreground","2","1000","Error message: Exception while fetching entity sf_q_survey__c
+&lt;h1&gt;Bad Message 431&lt;/h1&gt;&lt;pre&gt;reason: Request Header Fields Too Large&lt;/pre&gt;
+HTTP Error client error (431)","ProjectRole (01/21/2020 07:36:21 PM)","8d9d4af1-e6b4-4b4e-ac76-31a0a566d4fe (01/20/2020 06:20:49 PM)","Ivan Brian Anyanzo","Idro’s iPad"
+"01/22/2020 06:21:55 PM","IncSync","00:15","Foreground","2","1000","Error message: Exception while fetching entity sf_q_survey__c
+&lt;h1&gt;Bad Message 431&lt;/h1&gt;&lt;pre&gt;reason: Request Header Fields Too Large&lt;/pre&gt;
+HTTP Error client error (431)","ProjectRole (01/21/2020 07:36:21 PM)","8d9d4af1-e6b4-4b4e-ac76-31a0a566d4fe (01/20/2020 06:20:49 PM)","Ivan Brian Anyanzo","Idro’s iPad"
+"01/27/2020 01:21:50 PM","IncSync","00:15","Foreground","2","0","Conflict message: ","ProjectRole (01/21/2020 07:36:21 PM)","8d9d4af1-e6b4-4b4e-ac76-31a0a566d4fe (01/27/2020 12:54:43 PM)","Ivan Brian Anyanzo","DESKTOP-A56KSQD"
+"01/28/2020 12:11:03 PM","IncSync","00:14","Foreground","2","4092","Error message: Exception while fetching entity sf_q_survey__c
+&lt;h1&gt;Bad Message 431&lt;/h1&gt;&lt;pre&gt;reason: Request Header Fields Too Large&lt;/pre&gt;
+HTTP Error client error (431)","ProjectRole (01/21/2020 07:36:21 PM)","8d9d4af1-e6b4-4b4e-ac76-31a0a566d4fe (01/28/2020 12:08:44 PM)","Ivan Brian Anyanzo","Idro’s iPad"
+"01/27/2020 01:31:32 PM","IncSync","00:14","Foreground","2","0","Error message: Exception while fetching entity sf_q_survey__c
+&lt;h1&gt;Bad Message 431&lt;/h1&gt;&lt;pre&gt;reason: Request Header Fields Too Large&lt;/pre&gt;
+HTTP Error client error (431)","ProjectRole (01/21/2020 07:36:21 PM)","8d9d4af1-e6b4-4b4e-ac76-31a0a566d4fe (01/20/2020 06:20:49 PM)","Ivan Brian Anyanzo","Idro’s iPad"
+"01/28/2020 12:18:47 PM","IncSync","00:13","Foreground","2","0","Error message: Exception while fetching entity sf_q_survey__c
+&lt;h1&gt;Bad Message 431&lt;/h1&gt;&lt;pre&gt;reason: Request Header Fields Too Large&lt;/pre&gt;
+HTTP Error client error (431)","ProjectRole (01/21/2020 07:36:21 PM)","8d9d4af1-e6b4-4b4e-ac76-31a0a566d4fe (01/28/2020 12:08:44 PM)","Ivan Brian Anyanzo","Idro’s iPad"
+"01/22/2020 06:06:16 PM","IncSync","00:11","Foreground","2","0","Error message: Exception while fetching entity sf_q_survey__c
+&lt;h1&gt;Bad Message 431&lt;/h1&gt;&lt;pre&gt;reason: Request Header Fields Too Large&lt;/pre&gt;
+HTTP Error client error (431)","ProjectRole (01/21/2020 07:36:21 PM)","8d9d4af1-e6b4-4b4e-ac76-31a0a566d4fe (01/20/2020 06:23:53 PM)","Arthur Price","iPhone (4)"
+"01/22/2020 05:18:24 PM","IncSync","00:07","Foreground","2","2500","Error message: Exception while fetching entity sf_q_survey__c
+&lt;h1&gt;Bad Message 431&lt;/h1&gt;&lt;pre&gt;reason: Request Header Fields Too Large&lt;/pre&gt;
+HTTP Error client error (431)","ProjectRole (01/21/2020 07:36:21 PM)","8d9d4af1-e6b4-4b4e-ac76-31a0a566d4fe (01/20/2020 06:23:53 PM)","Arthur Price","iPhone (4)"
