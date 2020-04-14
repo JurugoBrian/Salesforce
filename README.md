@@ -1,2 +1,2 @@
 # Salesforce
-Salesforce Reports, Charts, and Dashboards
+Salesforce Reports, Charts, & Dashboards
